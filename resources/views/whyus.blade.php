@@ -17,67 +17,19 @@
     </div>
   </section>
 
-  <section class="py-5 bg-white">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6" style="padding-top: 100px;">
-          <h2 class="color-lightblue">Why USG</h2>
-          <p class="color-darkblue fs-2">Choose USG: Where Industry-Relevant Training Meets Personalized Support for International Student Success.</p>
-          <p class="fs-4">At USG, We Don't Just Teach Skills - We Build Careers with Modern Training and Dedicated Student Support. 
-            Join 5,000+ Graduates Who Chose USG for Practical Skills, Industry Connections, and Career Transformation. 
-            Your Australian Dream Starts Here: USG Combines Quality Education with the Support You Need to Succeed.
-          </p>
-        </div>
-        <div class="col-md-6">
-          <img src="svg/Vector Header-05.svg" alt="Hand illustration" class="img-fluid" style="max-height: 600px;">
-        </div>
-      </div>
-
-      <!-- 示例：校园图片轮播 -->
-      <div id="examplePhotosCarousel" class="carousel slide" style="display: none;">
-        <!-- 轮播图片 -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <!-- <img src="/images/campus1.jpg" class="d-block w-100 rounded"> -->
-          </div>
-          <div class="carousel-item">
-            <!-- <img src="/images/campus2.jpg" class="d-block w-100 rounded" alt="Campus 2"> -->
-          </div>
-          <div class="carousel-item">
-            <!-- <img src="/images/campus3.jpg" class="d-block w-100 rounded" alt="Campus 3"> -->
-          </div>
-          <div class="carousel-item">
-            <!-- <img src="/images/campus4.jpg" class="d-block w-100 rounded" alt="Campus 4"> -->
-          </div>
-          <div class="carousel-item">
-            <!-- <img src="/images/campus5.jpg" class="d-block w-100 rounded" alt="Campus 5"> -->
-          </div>
-        </div>
-
-        <!-- 自定义指示器（核心部分） -->
-        <div class="carousel-indicators custom-carousel-indicators custom-carousel-bg-white">
-          <button type="button" data-bs-target="#examplePhotosCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#examplePhotosCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#examplePhotosCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#examplePhotosCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#examplePhotosCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <section class="bg-grey-color">
     <div class="bg-white-left-bottom">
 
     <div class="container text-center py-5">
-      <h1 class="py-5 color-darkblue">Benefits of studying with us</h1>
+      <h1 class="py-5 color-darkpurple">Benefits of studying with us</h1>
       <div class="row" style="display: none;">
         <div class="col-md-4">
           <div class="benefits-card">
             <div class="benefits-card-img mx-auto d-block bg-white" >
               <img src="svg/Vector Header-15.svg" class="benefits-card-img svg-color-lightblue" alt="Cost icon">
             </div>
-            <h2 class="pt-4 color-darkblue benefits-card-title">Cost Effective</h3>
+            <h2 class="pt-4 color-darkpurple benefits-card-title">Cost Effective</h3>
             <p class="fs-5 text-start ms-3">Penfold training courses are cost competitive in the market place. Our pricing structure will provide you with confidence that you are receiving value for money on your investment.</p>
           </div>
         </div>
@@ -86,7 +38,7 @@
             <div class="benefits-card-img mx-auto d-block bg-darkblue" >
               <img src="svg/Vector Header-17.svg" class="benefits-card-img svg-inverted-brightness">
             </div>
-            <h2 class="pt-4 color-darkblue benefits-card-title">Campuses Easy to Access</h3>
+            <h2 class="pt-4 color-darkpurple benefits-card-title">Campuses Easy to Access</h3>
             <p class="fs-5 text-start ms-3">The campus is located in the heart of the Melbourne Central Business District (CBD). Public transport (trains, trams and buses) is accessible to and from the campus 7 days a week. Penfold facilities boast modern classrooms and computer labs, as well as other training facilities that are ideal for you to gain the most out of your study.</p>
           </div>
         </div>
@@ -95,7 +47,7 @@
             <div class="benefits-card-img mx-auto d-block bg-white" >
               <img src="svg/Vector Header-20.svg" class="benefits-card-img svg-color-lightblue">
             </div>
-            <h2 class="pt-4 color-darkblue benefits-card-title">The Academic Staff</h3>
+            <h2 class="pt-4 color-darkpurple benefits-card-title">The Academic Staff</h3>
             <p class="fs-5 text-start ms-3">Penfold trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
           </div>
         </div>
@@ -104,7 +56,7 @@
             <div class="benefits-card-img mx-auto d-block bg-darkblue" style1="background-color: #3f58a6;">
               <img src="svg/Vector Header-14.svg" class="benefits-card-img svg-inverted-brightness"></svg>
             </div>
-            <h2 class="pt-2 color-darkblue benefits-card-title">Modern Technology and Resources</h3>
+            <h2 class="pt-2 color-darkpurple benefits-card-title">Modern Technology and Resources</h3>
             <p class="fs-5 text-start ms-3">Our computer labs are equipped with modern technology and are accessible to you during your studies. You will have free access to Wi-Fi for personal use (in accordance with policy) during your enrolment with us on campus.</p>
           </div>
         </div>
@@ -113,7 +65,7 @@
             <div class="benefits-card-img mx-auto d-block bg-white" >
               <img src="svg/Vector Header-16.svg" class="benefits-card-img svg-color-lightblue">
             </div>
-            <h2 class="pt-4 color-darkblue benefits-card-title">Flexible Learning</h3>
+            <h2 class="pt-4 color-darkpurple benefits-card-title">Flexible Learning</h3>
             <p class="fs-5 text-start ms-3">We provide flexible study options and, where possible, schedule daytime, evening and weekend classes to meet the all of your needs. All scheduled classes are face-to-face classroom based on the campus.</p>
           </div>
         </div>
@@ -122,7 +74,7 @@
             <div class="benefits-card-img mx-auto d-block bg-darkblue" >
               <img src="svg/Vector Header-19.svg" class="benefits-card-img svg-inverted-brightness">
             </div>
-            <h2 class="pt-4 color-darkblue benefits-card-title">Student Support Services</h3>
+            <h2 class="pt-4 color-darkpurple benefits-card-title">Student Support Services</h3>
             <p class="fs-5 text-start ms-3">Our Student Support Services strive to provide the very best welfare and academic support for you. With our commitment to ensuring a personalised service that meets your needs, our staff interact with you when you need. You can make appointments to receive the support you are seeking.</p>
           </div>
         </div>
@@ -140,7 +92,7 @@
                   <div class="benefits-card-img mx-auto d-block bg-white" >
                     <img src="svg/Vector Header-15.svg" class="benefits-card-img svg-color-lightblue" alt="Cost icon">
                   </div>
-                  <h2 class="pt-4 color-darkblue benefits-card-title">Cost Effective</h3>
+                  <h2 class="pt-4 color-darkpurple benefits-card-title">Cost Effective</h3>
                   <p class="fs-5 text-start ms-3">Penfold training courses are cost competitive in the market place. Our pricing structure will provide you with confidence that you are receiving value for money on your investment.</p>
                 </div>
               </div>
@@ -149,7 +101,7 @@
                   <div class="benefits-card-img mx-auto d-block bg-darkblue" >
                     <img src="svg/Vector Header-17.svg" class="benefits-card-img svg-inverted-brightness">
                   </div>
-                  <h2 class="pt-4 color-darkblue benefits-card-title">Campuses Easy to Access</h3>
+                  <h2 class="pt-4 color-darkpurple benefits-card-title">Campuses Easy to Access</h3>
                   <p class="fs-5 text-start ms-3">The campus is located in the heart of the Melbourne Central Business District (CBD). Public transport (trains, trams and buses) is accessible to and from the campus 7 days a week. Penfold facilities boast modern classrooms and computer labs, as well as other training facilities that are ideal for you to gain the most out of your study.</p>
                 </div>
               </div>
@@ -158,7 +110,7 @@
                   <div class="benefits-card-img mx-auto d-block bg-white" >
                     <img src="svg/Vector Header-20.svg" class="benefits-card-img svg-color-lightblue">
                   </div>
-                  <h2 class="pt-4 color-darkblue benefits-card-title">The Academic Staff</h3>
+                  <h2 class="pt-4 color-darkpurple benefits-card-title">The Academic Staff</h3>
                   <p class="fs-5 text-start ms-3">Penfold trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
                 </div>
               </div>
@@ -172,7 +124,7 @@
                   <div class="benefits-card-img mx-auto d-block bg-darkblue" >
                     <img src="svg/Vector Header-17.svg" class="benefits-card-img svg-inverted-brightness">
                   </div>
-                  <h2 class="pt-4 color-darkblue benefits-card-title">Campuses Easy to Access</h3>
+                  <h2 class="pt-4 color-darkpurple benefits-card-title">Campuses Easy to Access</h3>
                   <p class="fs-5 text-start ms-3">The campus is located in the heart of the Melbourne Central Business District (CBD). Public transport (trains, trams and buses) is accessible to and from the campus 7 days a week. Penfold facilities boast modern classrooms and computer labs, as well as other training facilities that are ideal for you to gain the most out of your study.</p>
                 </div>
               </div>
@@ -181,7 +133,7 @@
                   <div class="benefits-card-img mx-auto d-block bg-white" >
                     <img src="svg/Vector Header-20.svg" class="benefits-card-img svg-color-lightblue">
                   </div>
-                  <h2 class="pt-4 color-darkblue benefits-card-title">The Academic Staff</h3>
+                  <h2 class="pt-4 color-darkpurple benefits-card-title">The Academic Staff</h3>
                   <p class="fs-5 text-start ms-3">Penfold trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
                 </div>
               </div>
@@ -190,7 +142,7 @@
                   <div class="benefits-card-img mx-auto d-block bg-darkblue" style1="background-color: #3f58a6;">
                     <img src="svg/Vector Header-14.svg" class="benefits-card-img svg-inverted-brightness"></svg>
                   </div>
-                  <h2 class="pt-2 color-darkblue benefits-card-title">Modern Technology and Resources</h3>
+                  <h2 class="pt-2 color-darkpurple benefits-card-title">Modern Technology and Resources</h3>
                   <p class="fs-5 text-start ms-3">Our computer labs are equipped with modern technology and are accessible to you during your studies. You will have free access to Wi-Fi for personal use (in accordance with policy) during your enrolment with us on campus.</p>
                 </div>
               </div>
@@ -205,7 +157,7 @@
                   <div class="benefits-card-img mx-auto d-block bg-white" >
                     <img src="svg/Vector Header-20.svg" class="benefits-card-img svg-color-lightblue">
                   </div>
-                  <h2 class="pt-4 color-darkblue benefits-card-title">The Academic Staff</h3>
+                  <h2 class="pt-4 color-darkpurple benefits-card-title">The Academic Staff</h3>
                   <p class="fs-5 text-start ms-3">Penfold trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
                 </div>
               </div>
@@ -214,7 +166,7 @@
                   <div class="benefits-card-img mx-auto d-block bg-darkblue" style1="background-color: #3f58a6;">
                     <img src="svg/Vector Header-14.svg" class="benefits-card-img svg-inverted-brightness"></svg>
                   </div>
-                  <h2 class="pt-2 color-darkblue benefits-card-title">Modern Technology and Resources</h3>
+                  <h2 class="pt-2 color-darkpurple benefits-card-title">Modern Technology and Resources</h3>
                   <p class="fs-5 text-start ms-3">Our computer labs are equipped with modern technology and are accessible to you during your studies. You will have free access to Wi-Fi for personal use (in accordance with policy) during your enrolment with us on campus.</p>
                 </div>
               </div>
@@ -223,7 +175,7 @@
                   <div class="benefits-card-img mx-auto d-block bg-white" >
                     <img src="svg/Vector Header-16.svg" class="benefits-card-img svg-color-lightblue">
                   </div>
-                  <h2 class="pt-4 color-darkblue benefits-card-title">Flexible Learning</h3>
+                  <h2 class="pt-4 color-darkpurple benefits-card-title">Flexible Learning</h3>
                   <p class="fs-5 text-start ms-3">We provide flexible study options and, where possible, schedule daytime, evening and weekend classes to meet the all of your needs. All scheduled classes are face-to-face classroom based on the campus.</p>
                 </div>
               </div>
@@ -237,7 +189,7 @@
                   <div class="benefits-card-img mx-auto d-block bg-darkblue" style1="background-color: #3f58a6;">
                     <img src="svg/Vector Header-14.svg" class="benefits-card-img svg-inverted-brightness"></svg>
                   </div>
-                  <h2 class="pt-2 color-darkblue benefits-card-title">Modern Technology and Resources</h3>
+                  <h2 class="pt-2 color-darkpurple benefits-card-title">Modern Technology and Resources</h3>
                   <p class="fs-5 text-start ms-3">Our computer labs are equipped with modern technology and are accessible to you during your studies. You will have free access to Wi-Fi for personal use (in accordance with policy) during your enrolment with us on campus.</p>
                 </div>
               </div>
@@ -246,7 +198,7 @@
                   <div class="benefits-card-img mx-auto d-block bg-white" >
                     <img src="svg/Vector Header-16.svg" class="benefits-card-img svg-color-lightblue">
                   </div>
-                  <h2 class="pt-4 color-darkblue benefits-card-title">Flexible Learning</h3>
+                  <h2 class="pt-4 color-darkpurple benefits-card-title">Flexible Learning</h3>
                   <p class="fs-5 text-start ms-3">We provide flexible study options and, where possible, schedule daytime, evening and weekend classes to meet the all of your needs. All scheduled classes are face-to-face classroom based on the campus.</p>
                 </div>
               </div>
@@ -255,7 +207,7 @@
                   <div class="benefits-card-img mx-auto d-block bg-darkblue" >
                     <img src="svg/Vector Header-19.svg" class="benefits-card-img svg-inverted-brightness">
                   </div>
-                  <h2 class="pt-4 color-darkblue benefits-card-title">Student Support Services</h3>
+                  <h2 class="pt-4 color-darkpurple benefits-card-title">Student Support Services</h3>
                   <p class="fs-5 text-start ms-3">Our Student Support Services strive to provide the very best welfare and academic support for you. With our commitment to ensuring a personalised service that meets your needs, our staff interact with you when you need. You can make appointments to receive the support you are seeking.</p>
                 </div>
               </div>
@@ -283,8 +235,8 @@
       <div class="container py-5">
         <div class="row">
           <div class="col-md-6 mt-5">
-            <h2 class="color-lightblue pt-5">Why USG</h2>
-            <h1 class="color-darkblue py-2" >What Makes USG Different</h2>
+            <h2 class="color-lightpurple pt-5">Why USG</h2>
+            <h1 class="color-darkpurple py-2" >What Makes USG Different</h2>
             <p class="fs-5">At USG, we combine practical, industry-focused training with comprehensive student support services designed specifically for international students. Unlike traditional institutions, we provide hands-on learning experiences, strong employer connections, and flexible study options that fit your lifestyle while ensuring you gain the skills Australian employers actually need.</p>
           </div>
           <div class="col-md-6">
@@ -305,8 +257,8 @@
             <img src="svg/Vector Header-10.png" alt="Support illustration" class="img-fluid" style="max-height: 600px;">
           </div>
           <div class="col-md-8 ">
-            <h2 class="color-lightblue pt-5">Why Australia</h2>
-            <h1 class="color-darkblue py-2" >Why Study in Australia?</h2>
+            <h2 class="color-lightpurple pt-5">Why Australia</h2>
+            <h1 class="color-darkpurple py-2" >Why Study in Australia?</h2>
 
             	<p class="fs-5">
                 Australia is one of the world’s leading destinations for international education, offering students a unique combination of academic excellence, cultural diversity, and lifestyle opportunities. With globally recognized qualifications and a strong reputation for high-quality education, studying in Australia opens doors to worldwide career prospects.<br />
@@ -320,7 +272,7 @@
                 Studying in Australia is not just about gaining a qualification—it’s about building a global future with knowledge, skills, and unforgettable experiences.</p>
           </div>
           <div class="col-md-12 px-5">
-            <h1 class="color-darkblue py-2" >Why Study in Melbourne?</h2>
+            <h1 class="color-darkpurple py-2" >Why Study in Melbourne?</h2>
             <p class="fs-5">
               Melbourne is one of the world’s most popular study destinations, renowned for its high-quality education, vibrant culture, and welcoming environment for international students. The city is home to top-ranked universities, TAFEs, and private colleges that offer globally recognised qualifications across diverse fields of study.<br />
               As Australia’s cultural capital, Melbourne offers a dynamic lifestyle filled with art, music, festivals, and a thriving food scene influenced by its multicultural community. The city is also known for its excellent public transport, safety, and student-friendly services.<br />
@@ -466,7 +418,7 @@
 
   <section class="pb-5">
     <div class="container text-center">
-      <h2 class="color-darkblue text-center">Company Milestones</h2>
+      <h2 class="color-darkpurple text-center">Company Milestones</h2>
       <p>A journey of growth, innovation, and commitment to excellence in vocational education</p>
       <img src="/images/usg-milestone1.png" alt="Usg History" class="img-fluid">
     </div>
