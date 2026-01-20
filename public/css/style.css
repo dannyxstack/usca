@@ -373,7 +373,7 @@ body {
 .custom-carousel-indicators [data-bs-target] {
   width: 12px;
   height: 12px;
-  background-color: #a8dadc; /* 浅蓝绿（匹配原型） */
+  background-color: #bf69a8;
   border-radius: 50%;
   opacity: 1;
   margin: 0; /* 移除默认 margin */
@@ -382,7 +382,7 @@ body {
 
 /* 激活圆点 */
 .custom-carousel-indicators .active {
-  background-color: #2b6777; /* 深蓝（匹配原型中的深色点） */
+  background-color: #9c649a; /* 深蓝（匹配原型中的深色点） */
   transform: scale(1.2); /* 稍微放大一点，更突出 */
 }
 
