@@ -13,11 +13,11 @@
   <section class="text-start section-bg-course">
     <div class="container py-5">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 color-white">
 
-          <h1 class="color-darkblue" style="margin-top: 100px;">
+          <h1 class="color-white" style="margin-top: 100px;">
             ALL COURSES <br>
-            At <span class="color-lightblue">Unity Skills Group</span>
+            At <span class="color-white">Unity Skills College Of Health</span>
           </h1>
           <div class="text-start fs-4">
             <!-- <a href="#" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start now</a> -->
@@ -254,7 +254,7 @@
     </div>
   </section>
 
-  <section class="bg-lightblue" id="cookery">
+  <section class="bg-lightblue" id="cookery" style="display: none;">
     <div class="">
       <div class="container py-5">
         <div class="row">

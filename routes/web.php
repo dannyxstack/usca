@@ -18,8 +18,20 @@ Route::get('/campus', function () {
 Route::get('/whyus', function () {
     return view('whyus', ['title' => 'Why Us'] );
 });
+Route::get('/intakedates', function () {
+    return view('intake', ['title' => 'Intake Dates'] );
+});
+Route::get('/promotion', function () {
+    return view('promotion', ['title' => 'Promotion Prices'] );
+});
 Route::get('/findagent', function () {
     return view('findagent', ['title' => 'Find An Agent'] );
+});
+Route::get('/apply', function () {
+    return view('apply', ['title' => 'Apply Now'] );
+});
+Route::get('/agentlist', function () {
+    return view('agentlist', ['title' => 'Agent List'] );
 });
 Route::get('/whyus.html', function () {
     return view('whyus');
