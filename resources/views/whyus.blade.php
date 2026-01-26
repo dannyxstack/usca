@@ -8,7 +8,7 @@
   border: none;
   padding: 20px;
   border-radius: 20px;
-  height: 700px;
+  height: 600px;
 }
 .benefits-card-img {
   border-radius: 50%;
@@ -19,54 +19,89 @@
   height: 100px;
 }
 
-  /** svg colors **/
+/** svg colors **/
 
-  .svg-inverted-filter {
-    filter: invert(100%); /* 反转所有颜色 */
+.svg-inverted-filter {
+  filter: invert(100%); /* 反转所有颜色 */
+}
+
+.svg-inverted-brightness {
+  filter: invert(100%) brightness(2); /* 反转并增加亮度 */
+}
+
+
+.svg-white-stroke path,
+.svg-white-stroke circle,
+.svg-white-stroke rect,
+.svg-white-stroke line,
+.svg-white-stroke polyline,
+.svg-white-stroke polygon {
+  fill: none !important;
+  stroke: white !important;
+  /* stroke-width: 2 !important; */
+}
+.svg-white-fill path {
+  fill: white !important;
+  stroke: none !important;
+}
+  /* 亮蓝色 ok */
+  .img-light-blue {
+  filter: 
+      brightness(0) 
+      saturate(100%) 
+      invert(60%) 
+      sepia(80%) 
+      saturate(1000%) 
+      hue-rotate(180deg) 
+      /* hue-rotate(44c2d9)  */
+      brightness(110%) 
+      contrast(100%);
   }
 
-  .svg-inverted-brightness {
-    filter: invert(100%) brightness(2); /* 反转并增加亮度 */
-  }
+/* grok 替换svg线条颜色为#44c2d9 */
+.svg-color-lightblue {
+  filter: brightness(0) saturate(100%) invert(66%) sepia(74%) saturate(407%) hue-rotate(143deg) brightness(92%) contrast(84%);
+}
+
+.svg-color-lightpurple {
+  filter: brightness(0) saturate(100%) invert(66%) sepia(25%) saturate(542%) hue-rotate(264deg) brightness(86%) contrast(95%);
+}
 
 
-  .svg-white-stroke path,
-  .svg-white-stroke circle,
-  .svg-white-stroke rect,
-  .svg-white-stroke line,
-  .svg-white-stroke polyline,
-  .svg-white-stroke polygon {
-    fill: none !important;
-    stroke: white !important;
-    /* stroke-width: 2 !important; */
-  }
-  .svg-white-fill path {
-    fill: white !important;
-    stroke: none !important;
-  }
-    /* 亮蓝色 ok */
-    .img-light-blue {
-    filter: 
-        brightness(0) 
-        saturate(100%) 
-        invert(60%) 
-        sepia(80%) 
-        saturate(1000%) 
-        hue-rotate(180deg) 
-        /* hue-rotate(44c2d9)  */
-        brightness(110%) 
-        contrast(100%);
-    }
+.purple-section {
+  position: relative;
+  min-height: 400px;
+  padding: 2rem 0;
+  overflow: hidden;
+}
 
-  /* grok 替换svg线条颜色为#44c2d9 */
-  .svg-color-lightblue {
-    filter: brightness(0) saturate(100%) invert(66%) sepia(74%) saturate(407%) hue-rotate(143deg) brightness(92%) contrast(84%);
-  }
-  
-  .svg-color-lightpurple {
-    filter: brightness(0) saturate(100%) invert(66%) sepia(25%) saturate(542%) hue-rotate(264deg) brightness(86%) contrast(95%);
-  }
+.purple-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background-color: #c785b5;
+  border-radius: 30px;
+  z-index: 0;
+}
 
+.purple-section .content {
+  position: relative;
+  z-index: 1;
+  /* background: white; */
+  /* border-radius: 20px; */
+  /* padding: 2rem; */
+  /* box-shadow: 0 5px 15px rgba(0,0,0,0.1); */
+  /* max-width: 800px; */
+  /* margin: 0 auto; */
+}
+
+.campus-icon {
+  width: 100px;
+  height: 100px;
+}
 
 </style>
 
@@ -304,7 +339,11 @@
           <div class="col-md-6 mt-5">
             <h2 class="color-lightpurple pt-5">Why USG</h2>
             <h1 class="color-darkpurple py-2" >What Makes USG Different</h2>
-            <p class="fs-5">At USG, we combine practical, industry-focused training with comprehensive student support services designed specifically for international students. Unlike traditional institutions, we provide hands-on learning experiences, strong employer connections, and flexible study options that fit your lifestyle while ensuring you gain the skills Australian employers actually need.</p>
+            <p class="fs-5">At USG, we combine practical, industry-focused training with comprehensive student support services 
+              designed specifically for international students. U
+              nlike traditional institutions, we provide hands-on learning experiences, 
+              strong employer connections, and flexible study options that fit your lifestyle 
+              while ensuring you gain the skills Australian employers actually need.</p>
             <a href="/allcourses" class="btn btn-lg footer-start-here-btn fs-4 mt-3 bg-darkpurple color-white">Explore</a>
           </div>
           <div class="col-md-6">
@@ -466,19 +505,68 @@
     </div>
   </section>
 
-  <section class="py-5 " style="display:none;">
+  <section class="py-5 " style="display:;">
     <div class="container">
-      <h2>Why USG Campuses Easy to Access</h2>
-      <div id="campusCarousel" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active"><img src="https://placehold.co/300x200" alt="Campus 1" class="d-block w-100"></div>
-          <div class="carousel-item"><img src="https://placehold.co/300x200" alt="Campus 2" class="d-block w-100"></div>
-          <div class="carousel-item"><img src="https://placehold.co/300x200" alt="Campus 3" class="d-block w-100"></div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="svg/Vector Health  website-16.svg" class="campus-icon mb-2" alt="Campus Icon">
+          <p></p>
+          <h2 class="color-darkblue">Why USG Campuses Easy to Access</h2>
+          <p>Our campuses are strategically located with convenience in mind. 
+            Whether you're commuting by public transport, driving, or cycling, 
+            we've made access simple. With multiple transport options nearby, 
+            ample parking, and bike-friendly facilities, getting to class is stress-free. 
+            Central locations mean you're never far from essential services, study spots, 
+            or home—giving you more time to focus on what truly matters: 
+            your education and future success.</p>
         </div>
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#campusCarousel" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#campusCarousel" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#campusCarousel" data-bs-slide-to="2"></button>
+        <div class="col-md-6">
+          <div id="campusCarousel" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active"><img src="/images/campus-ex1.png" alt="Campus 1" class="d-block w-100"></div>
+              <div class="carousel-item"><img src="/images/campus-ex2.png" alt="Campus 2" class="d-block w-100"></div>
+              <div class="carousel-item"><img src="/images/campus-ex3.png" alt="Campus 3" class="d-block w-100"></div>
+            </div>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#campusCarousel" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#campusCarousel" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#campusCarousel" data-bs-slide-to="2"></button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="">
+    <div class="">
+
+      <div class="container py-5 px-5" style="height: 800px;">
+        <p></p>
+        <div class="row purple-section">
+          <div class="col-md-1"></div>
+          <div class="col-md-5">
+            <p></p>
+            <div class="bg-white content rounded-5 mt-5 px-5">
+              <h2 class="color-darkblue pt-5">Student Support Services</h2>
+              
+              <p class="fs-5">At Unity Skills, we believe your education extends beyond the classroom. 
+                Our comprehensive Student Support Services are designed to empower you at every step of 
+                your learning journey. 
+                From personalized academic guidance and career counseling to mental wellness resources 
+                and learning assistance, our dedicated support team ensures you have the tools and 
+                confidence to thrive. We're not just teaching skills—we're building resilient, 
+                successful professionals by providing the holistic support you need to overcome 
+                challenges and achieve your goals. Your success story starts with our unwavering support.</p>
+              <a href="/allcourses" class="btn btn-lg footer-start-here-btn fs-4 mt-3 bg-darkpurple color-white">Learn More</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class=" content">
+              <img src="svg/Vector Health  website-17.svg" alt="" class="img-fluid" style="max-height: 600px;">
+            </div>
+          </div>
         </div>
       </div>
     </div>
