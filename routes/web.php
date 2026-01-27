@@ -33,6 +33,18 @@ Route::get('/apply', function () {
 Route::get('/agentlist', function () {
     return view('agentlist', ['title' => 'Agent List'] );
 });
+Route::get('/student-services', function () {
+    return view('studentservice', ['title' => 'Student Services'] );
+});
+Route::get('/esos-framework-and-tps-information', function () {
+    return view('esos', ['title' => 'ESOS Framework & TPS Information'] );
+});
+Route::get('/policies', function () {
+    return view('policies', ['title' => 'Policies, Procedures and Forms'] );
+});
+Route::get('/enrolment-and-orientation', function () {
+    return view('enrolment', ['title' => 'Enrolment and Orientation'] );
+});
 Route::get('/whyus.html', function () {
     return view('whyus');
 });

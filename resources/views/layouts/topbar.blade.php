@@ -113,8 +113,20 @@
               <li><a class="dropdown-item" href="https://form.jotform.com/252581213016043">Become an Agent</a></li>
             </ul>
           </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Student Experience</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/enrolment-and-orientation">Enrollment and Orientation</a></li>
+              <li><a class="dropdown-item" href="/student-services">Student Services</a></li>
+              <li><a class="dropdown-item" href="/policies">Polices, Procudures and Forms</a></li>
+              <li><a class="dropdown-item" href="/esos-framework-and-tps-information">ESOS Framework & TPS Information</a></li>
+              <li><a class="dropdown-item" href="https://penfold.edu.au/wp-content/uploads/2025/10/Unity-Skills-Colleg-of-Health-International-Student-Prospectus_V3.0.pdf">Student Handbook</a></li>
+            </ul>
+          </li>
+
           <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="/allcourses">Apply Now</a></li>
+          <li class="nav-item"><a class="nav-link" href="/apply">Apply Now</a></li>
         </ul>
       </div>
     </div>
