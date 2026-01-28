@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <img src="/images/courses-banner1.png" alt="Courses Banner" class="img-fluid">
+          <img src="/svg/Vector Health  website-21.svg" alt="Courses Banner" class="img-fluid rounded-5">
         </div>
       </div>
 
@@ -42,7 +42,7 @@
             <p class="fs-4">Gain the essential skills and nationally-recognized qualifications to provide meaningful support in aged care and community services, where every day makes a difference in someone's life.</p>
           </div>
           <div class="col-md-7">
-            <img src="/images/agedcare2.png" alt="Support illustration" class="img-fluid course-pathway-img">
+            <img src="/images/courses/Certificate III in Individual Support.png" alt="Support illustration" class="img-fluid course-pathway-img">
           </div>
         </div>
         <div class="row my-5">
