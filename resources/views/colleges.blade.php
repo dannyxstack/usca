@@ -625,7 +625,7 @@ body {
           <div class="col-md-6 mt-5">
             <h2 class="color-white pt-5">Public Transport</h2>
             <!-- <h1 class="color-white py-2" >Student Support Services</h2> -->
-            <p class="color-white fs-5">123 Lonsdale Street is conveniently located in Melbourne's most sought after education precinct within close proximity to all forms of public transport. </p>
+            <p class="color-white fs-5"><a href="https://maps.app.goo.gl/xfjuaYD7aieqqX4k6" target="_blank" rel="noopener noreferrer">123 Lonsdale Street</a> is conveniently located in Melbourne's most sought after education precinct within close proximity to all forms of public transport. </p>
           </div>
           <div class="col-md-6">
             <a href="https://maps.app.goo.gl/xfjuaYD7aieqqX4k6" target="_blank" rel="noopener noreferrer">
