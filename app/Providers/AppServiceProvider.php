@@ -3,8 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\View;
-use App\Models\Course;
+
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -21,7 +20,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
-        View::share('allCourses', Course::all());
+        // 会部署kinsta失败
+        // View::share('allCourses', Course::all());
     }
 }
