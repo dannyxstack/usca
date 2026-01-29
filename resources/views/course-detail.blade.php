@@ -26,9 +26,9 @@
 
 /* active 状态 */
 .custom-tabs .nav-link.active {
-  color: #0d6efd;               /* 高亮文字 */
+  color: #c785b5;               /* 高亮文字 */
   font-weight: 600;
-  border-bottom: 4px solid #0d6efd; /* 粗下边框 */
+  border-bottom: 4px solid #c785b5; /* 粗下边框 */
   background-color: transparent;   /* 去掉白底 */
 }
 
@@ -543,11 +543,11 @@
             <div class="row my-4">
 
               @foreach ($randomCourses1 as $courseItem)
-              <div class="col-md-3 pe-0">
+              <div class="col-md-3">
                 <div class="card course-pathway-card ps-1 py-2">
                   <div class="card-body">
                     <h5 class="card-title fs-4 color-lightblue">{{ $courseItem['code'] }}</h5>
-                    <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">{{ $courseItem['name'] }}</h6>
+                    <h6 class="card-title fs-3 color-darkblue course-pathway-card-body">{{ $courseItem['name'] }}</h6>
                     <a href="/course/{{ $courseItem['code'] }}" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-4">Learn More</a>
                   </div>
                 </div>

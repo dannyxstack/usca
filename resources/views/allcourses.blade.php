@@ -38,7 +38,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5 pt-5">
-            <h2 class="color-darkblue pt-5 fs-1">Aged Care & Comunity Services</h2>
+            <h2 class="color-darkblue pt-5 fs-1">Aged Care & Community Services</h2>
             <p class="fs-4">Gain the essential skills and nationally-recognized qualifications to provide meaningful support in aged care and community services, where every day makes a difference in someone's life.</p>
           </div>
           <div class="col-md-7">
@@ -46,33 +46,19 @@
           </div>
         </div>
         <div class="row my-5">
-          <div class="col-md-4 pe-0">
-            <div class="card course-pathway-card ps-1 py-2">
-              <div class="card-body">
-                <h5 class="card-title fs-4 color-lightblue">CHC33021</h5>
-                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate III in Individual Support</h6>
-                <a href="/course/CHC33021" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
+          @foreach ( $allCourses as $course)
+            @if ($course->class == 'Aged Care and Community Services')
+            <div class="col-md-4 pe-0">
+              <div class="card course-pathway-card ps-1 py-2">
+                <div class="card-body">
+                  <h5 class="card-title fs-4 color-lightblue">{{$course->code}}</h5>
+                  <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">{{ $course->name }}</h6>
+                  <a href="/course/{{ $course->kname }}" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 pe-0">
-            <div class="card course-pathway-card ps-1 py-2" >
-              <div class="card-body">
-                <h5 class="card-title fs-4 color-lightblue">CHC43015</h5>
-                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate IV in Ageing Support</h6>
-                <a href="/course/CHC43015" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 pe-0">
-            <div class="card course-pathway-card ps-1 py-2" >
-              <div class="card-body">
-                <h5 class="card-title fs-4 color-lightblue">CHC52021</h5>
-                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Diploma of Community Services</h6>
-                <a href="/course/CHC52021" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
-              </div>
-            </div>
-          </div>
+            @endif
+          @endforeach
         </div>
         <div class="row>">
           <p></p>
@@ -96,24 +82,19 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 pe-0">
-            <div class="card course-pathway-card ps-1 py-2">
-              <div class="card-body">
-                <h5 class="card-title fs-4 color-lightblue">CHC30121</h5>
-                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate III in Early Childhood Education and Care</h6>
-                <a href="/course/CHC30121" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
+          @foreach ( $allCourses as $course)
+            @if ($course->class == 'Aged Care and Community Services')
+            <div class="col-md-4 pe-0">
+              <div class="card course-pathway-card ps-1 py-2">
+                <div class="card-body">
+                  <h5 class="card-title fs-4 color-lightblue">{{$course->code}}</h5>
+                  <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">{{ $course->name }}</h6>
+                  <a href="/course/{{ $course->kname }}" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 pe-0">
-            <div class="card course-pathway-card ps-1 py-2" >
-              <div class="card-body">
-                <h5 class="card-title fs-4 color-lightblue">CHC50121</h5>
-                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Diploma of Early Childhood Education and Care</h6>
-                <a href="/course/CHC50121" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
-              </div>
-            </div>
-          </div>
+            @endif
+          @endforeach
         </div>
         <div class="row>">
           <p></p>
@@ -136,33 +117,19 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 pe-0">
-            <div class="card course-pathway-card ps-1 py-2">
-              <div class="card-body">
-                <h5 class="card-title fs-4 color-lightblue">BSB40820</h5>
-                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate IV in Marketing and Communication</h6>
-                <a href="/course/BSB40820" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
+          @foreach ( $allCourses as $course)
+            @if ($course->class == 'Marketing and Communication')
+            <div class="col-md-4 pe-0">
+              <div class="card course-pathway-card ps-1 py-2">
+                <div class="card-body">
+                  <h5 class="card-title fs-4 color-lightblue">{{$course->code}}</h5>
+                  <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">{{ $course->name }}</h6>
+                  <a href="https://uscohealth.edu.au/course/{{ $course->kname }}" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 pe-0">
-            <div class="card course-pathway-card ps-1 py-2" >
-              <div class="card-body">
-                <h5 class="card-title fs-4 color-lightblue">BSB50620</h5>
-                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Diploma of Marketing and Communication</h6>
-                <a href="/course/BSB50620" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 pe-0">
-            <div class="card course-pathway-card ps-1 py-2" >
-              <div class="card-body">
-                <h5 class="card-title fs-4 color-lightblue">BSB60520</h5>
-                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Advanced Diploma of Marketing and Communication</h6>
-                <a href="/course/BSB60520" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
-              </div>
-            </div>
-          </div>
+            @endif
+          @endforeach
         </div>
       </div>
  
@@ -183,33 +150,19 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 pe-0">
-            <div class="card course-pathway-card ps-1 py-2">
-              <div class="card-body">
-                <h5 class="card-title fs-4 color-lightblue">BSB50420</h5>
-                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Diploma of Leadership and Management</h6>
-                <a href="/course/BSB50420" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
+          @foreach ( $allCourses as $course)
+            @if ($course->class == 'Business and Management')
+            <div class="col-md-4 pe-0">
+              <div class="card course-pathway-card ps-1 py-2">
+                <div class="card-body">
+                  <h5 class="card-title fs-4 color-lightblue">{{$course->code}}</h5>
+                  <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">{{ $course->name }}</h6>
+                  <a href="https://uscohealth.edu.au/course/{{ $course->kname }}" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 pe-0">
-            <div class="card course-pathway-card ps-1 py-2" >
-              <div class="card-body">
-                <h5 class="card-title fs-4 color-lightblue">BSB60420</h5>
-                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Advanced Diploma of Leadership and Management</h6>
-                <a href="/course/BSB60420" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 pe-0">
-            <div class="card course-pathway-card ps-1 py-2" >
-              <div class="card-body">
-                <h5 class="card-title fs-4 color-lightblue">BSB80120</h5>
-                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Graduate Diploma of Management (Learning)</h6>
-                <a href="/course/BSB80120" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
-              </div>
-            </div>
-          </div>
+            @endif
+          @endforeach
         </div>
       </div>
  
@@ -230,24 +183,19 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 pe-0">
-            <div class="card course-pathway-card ps-1 py-2">
-              <div class="card-body">
-                <h5 class="card-title fs-4 color-lightblue">AUR30620</h5>
-                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate III in Light Vehicle Mechanical Technology</h6>
-                <a href="/course/AUR30620" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
+          @foreach ( $allCourses as $course)
+            @if ($course->class == 'Automotive')
+            <div class="col-md-4 pe-0">
+              <div class="card course-pathway-card ps-1 py-2">
+                <div class="card-body">
+                  <h5 class="card-title fs-4 color-lightblue">{{$course->code}}</h5>
+                  <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">{{ $course->name }}</h6>
+                  <a href="https://uscohealth.edu.au/course/{{ $course->kname }}" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 pe-0">
-            <div class="card course-pathway-card ps-1 py-2" >
-              <div class="card-body">
-                <h5 class="card-title fs-4 color-lightblue">AUR40216</h5>
-                <h6 class="card-title fs-2 color-darkblue course-pathway-card-body">Certificate IV in Automotive Mechanical Diagnosis</h6>
-                <a href="/course/AUR40216" class="btn fs-4 bg-lightblue course-pathway-btn color-white mt-2">Learn More</a>
-              </div>
-            </div>
-          </div>
+            @endif
+          @endforeach
         </div>
       </div>
  
