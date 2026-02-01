@@ -64,7 +64,7 @@
           </div>
         </div>
         <div class="col-md-7">
-          <img src="/images/courses/{{ $course->img ?? '' }}" alt="Illustration" class="img-fluid rounded" style="max-height: 600px;">
+          <img src="/images/courses/{{ $course->img ?? '' }}" alt="Illustration" class="img-fluid rounded-5" style="max-height: 600px;">
 
         </div>
       </div>
