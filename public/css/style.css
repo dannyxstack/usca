@@ -96,7 +96,7 @@ body {
 
   /* Sections */
   .hero {
-    background-color: var(--primary-blue);
+    /* background-color: var(--primary-blue); */
     color: var(--white);
     padding: 100px 0;
   }
