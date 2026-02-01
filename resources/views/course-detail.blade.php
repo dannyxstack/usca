@@ -45,6 +45,38 @@
   top: 80px; /* 距离顶部的吸附距离 */
 }
 
+.section-bg-course {
+  background-image: url('/images/bg-header-course-detail.png');
+  background-size: cover; /* 覆盖整个区域 */
+  background-position: center; /* 居中显示 */
+  width: 100%;
+  height: 800px;
+}
+.section-bg-course-pathway {
+  background-image: url('/images/course-detail2.png');
+  background-size: 75%;
+  /* background-position-x: center; */
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 800px;
+}
+.section-bg-course-structure {
+  background-image: url('/images/course-detail3.png');
+  /* background-size: cover;*/
+  background-position-x: center; /* 居中显示 */
+  /* background-position-y: 20px; */
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 800px;
+  /* background-color: #c785b5; */
+}
+
+.rounded-bottom {
+  border-bottom-right-radius: 0.9rem !important;
+  border-bottom-left-radius: 0.9rem !important;
+}
+
 </style>
 
 <body>
@@ -284,10 +316,10 @@
 
               <div class="container">
                 <div class="row">
-                  <div class="col-md-12 pt-5">
-                    <h2 class="color-darkblue pt-5 fs-1">Pathways</h2>
+                  <div class="col-md-12">
+                    <h2 class="color-darkblue pt-3 fs-1">Pathways</h2>
                     <p class="fs-4">{!! nl2br(e($course->pathways)) !!}</p>
-                    <p class="py-4"> </p>
+                    <p class="py-2"> </p>
                   </div>
                   <!-- <div class="col-md-7">
                     <img src="images/agedcare2.png" alt="Support illustration" class="img-fluid course-pathway-img">
@@ -296,13 +328,13 @@
               </div>
 
               @if (isset($course->employment_pathways) && !empty($course->employment_pathways))
-              <div class="section-bg-course-pathway pb-5">
+              <div class="section-bg-course-pathway pb-3">
                 <div class="row">
-                  <div class="col-md-6"> </div>
+                  <div class="col-md-4"> </div>
                   
-                  <div class="col-md-6 fs-4">
-                    <div class="px-2 course-emp-pathway">
-                      <h2 class="color-darkblue fs-2 ms-4 mb-2">Employment Pathways:</h2>
+                  <div class="col-md-8 fs-4 ps-5">
+                    <div class="px-5 course-emp-pathway">
+                      <h2 class="color-darkblue fs-2 ms-2 mb-2">Employment Pathways:</h2>
                       
                       <p>
                         {!! nl2br(e($course->employment_pathways)) !!}
@@ -323,7 +355,7 @@
             </div>
           </section>
 
-          <section class="section-bg-course-structure py-5 tab-pane fade" id="units" @if (empty($course->course_structure)) style="display: none;" @endif>
+          <section class="section-bg-course-structure py-5 tab-pane fade rounded-bottom" id="units" @if (empty($course->course_structure)) style="display: none;" @endif>
 
             <div class="container py-5">
               <div class="row mb-5">
@@ -351,11 +383,14 @@
               </div>
 
               @foreach ($coreUnits as $unit)      
-              <div class="row mt-2 ps-3 fs-4">
+              <div class="row pt-2 ps-3 fs-4">
                 <div class="col-md-3 course-code1">{{ $unit['code'] }}</div>
                 <div class="col-md-9 course-code2">{{ $unit['title'] }}</div>
               </div>
               @endforeach
+              <div class="row">
+                <p class="mb-2"></p>
+              </div>
 
 
               <!-- Electives -->
