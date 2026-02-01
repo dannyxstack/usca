@@ -121,7 +121,7 @@
 
   <section class="py-5">
     <div class="container text-center">
-      <h2 class="color-darkpurple text-center">Company Milestones</h2>
+      <h1 class="color-darkpurple text-center">Company Milestones</h1>
       <p>A journey of growth, innovation, and commitment to excellence in vocational education</p>
       <img src="/images/usg-milestone1.png" alt="Usg History" class="img-fluid">
     </div>
