@@ -119,6 +119,14 @@
     </div>
   </section>
 
+  <section class="py-5">
+    <div class="container text-center">
+      <h2 class="color-darkpurple text-center">Company Milestones</h2>
+      <p>A journey of growth, innovation, and commitment to excellence in vocational education</p>
+      <img src="/images/usg-milestone1.png" alt="Usg History" class="img-fluid">
+    </div>
+  </section>
+
 
   <section class="bg-grey-color">
     <div class="bg-white-left-bottom">
@@ -331,7 +339,7 @@
     </div>
   </section>
 
-  <section class="bg-white-color">
+  <section class="bg-white-color" style="display: none;">
     <div class="bg-grey-right-bottom">
 
       <div class="container py-5">
@@ -354,7 +362,7 @@
     </div>
   </section>
 
-  <section class="">
+  <section class="bg-grey-color">
     <div class="">
 
       <div class="container py-5">
@@ -378,6 +386,16 @@
                 ·       Quality of Life: With its safe cities, beautiful landscapes, and vibrant lifestyle, Australia offers an excellent balance between study and leisure.<br />
                 Studying in Australia is not just about gaining a qualification—it’s about building a global future with knowledge, skills, and unforgettable experiences.</p>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="">
+    <div class="">
+      
+      <div class="container py-5">
+        <div class="row">
           <div class="col-md-12 px-5">
             <h1 class="color-darkpurple py-2" >Why Study in Melbourne?</h2>
             <p class="fs-5">
@@ -569,14 +587,6 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="pb-5">
-    <div class="container text-center">
-      <h2 class="color-darkpurple text-center">Company Milestones</h2>
-      <p>A journey of growth, innovation, and commitment to excellence in vocational education</p>
-      <img src="/images/usg-milestone1.png" alt="Usg History" class="img-fluid">
     </div>
   </section>
 
