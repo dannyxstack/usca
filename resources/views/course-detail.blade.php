@@ -4,6 +4,7 @@
 @include('layouts.head')
 
 <style>
+
   /* 整体 tabs 容器 */
 .custom-tabs {
   border-bottom: none; /* 移除 Bootstrap 默认下边框 */
@@ -358,6 +359,8 @@
 
 
               <!-- Electives -->
+              @if (count($electiveUnits) > 0)
+
               <div class="row mt-5 bg-white rounded-5 shadow">
                 <div class="col-md-3 ps-0 pt-4 ps-2">
                   <span class="course-str-label bg-lightblue color-white text-start fs-3" > Electives </span>
@@ -378,6 +381,7 @@
 
                 <p class="mt-2"></p>
               </div>
+              @endif
           
               <div class="row ps-4">
                 <p></p>
