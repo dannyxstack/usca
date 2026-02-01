@@ -15,7 +15,7 @@
   <nav class="navbar navbar-expand-lg shadow-sm sticky-top">
     <div class="container">
       <a class="navbar-brand py-3" href="/">
-        <img src="/images/LOGO_US_Health Landscape-01.s.png" alt="Unity Skills Group Logo" height="60">
+        <img src="/images/LOGO_US_Health Landscape-01.s.png" alt="Unity Skills College of Health Logo" height="60">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>

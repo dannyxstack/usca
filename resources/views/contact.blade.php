@@ -45,7 +45,7 @@
           <p class="color-darkblue fs-1">HOW CAN WE HELP?</p>
           <div class="fs-4">
 
-            <p>At United Skills Group, we understand that choosing the right educational institution is one of the most significant decisions you'll make. That's why we're committed to providing personalized guidance every step of the way. Ready to start your next project with us? Send us a message and we will get back to you as soon as possible!</p>
+            <p>At United Skills College of Health, we understand that choosing the right educational institution is one of the most significant decisions you'll make. That's why we're committed to providing personalized guidance every step of the way. Ready to start your next project with us? Send us a message and we will get back to you as soon as possible!</p>
             <!-- <p>Our dedicated team of education consultants brings decades of combined experience in international education, immigration pathways, and career development. We've helped thousands of students from diverse backgrounds achieve their academic and professional goals in Australia.</p> -->
             
             <!-- <p>Whether you're seeking detailed course information, clarification about entry requirements, guidance on visa processes, or simply want to understand how USG can transform your career prospects, we're here to listen and assist. Our multicultural support staff speak multiple languages and understand the unique challenges international students face when studying abroad.</p> -->

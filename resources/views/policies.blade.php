@@ -40,7 +40,7 @@
       </div>
       <div class="row">
         <!-- <p class="fs-4">We look forward to the possibility of collaborating with you and becoming a trusted partner agent of our college.</p> -->
-        <p class="fs-5">At United Skills Group, we uphold the highest standards of educational integrity and regulatory compliance. 
+        <p class="fs-5">At United Skills College of Health, we uphold the highest standards of educational integrity and regulatory compliance. 
           Our comprehensive policies, procedures, and forms framework ensures full adherence to Australian education laws, 
           CRICOS requirements, and industry best practices, providing transparent governance for all stakeholders.</p>
       </div>
