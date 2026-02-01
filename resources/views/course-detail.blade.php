@@ -428,11 +428,11 @@
               <div class="container ">
                 <div class="row">
                   <!-- <div class="col-md-1"></div> -->
-                  <div class="col-md-5 pe-0">
-                    <img src="/images/agedcare3.png" alt="RPL illustration" class="img-fluid course-rpl-img">
+                  <div class="col-md-6 pe-0">
+                    <img src="/images/agedcare3.png" alt="RPL illustration" class="img-fluid course-rpl-img" style="height: 120%;">
                   </div>
-                  <div class="col-md-7 ps-0">
-                    <p class="" style="height: 120px;"> </p>
+                  <div class="col-md-6 ps-0">
+                    <p class="" style="height: 20px;"> </p>
                     <div class="bg-lightblue p-4 color-white course-rpl-box">
                       <h2 class="fs-1">Recognition of Prior Learning (RPL)/
                         Credit Transfer (CT)
