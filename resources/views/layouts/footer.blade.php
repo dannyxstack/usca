@@ -34,7 +34,7 @@
             <li class="mb-2"><a href="/index">Home</a></li>
             <li class="mb-2"><a href="/whyus">Why Us</a></li>
             <li class="mb-2"><a href="/campus">Our Campus</a></li>
-            <li class="mb-2"><a href="/colleges">Colleges</a></li>
+            <!-- <li class="mb-2"><a href="/colleges">Colleges</a></li> -->
             <li class="mb-2"><a href="/allcourses">All Courses</a></li>
             <li class="mb-2"><a href="/findagent">Find An Agent</a></li>
             <li class="mb-2"><a href="/agentlist">Education Agents</a></li>
