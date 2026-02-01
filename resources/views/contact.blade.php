@@ -57,7 +57,7 @@
         </div>
         <div class="col-md-7">
           <div class=" rounded-5 px-3 fs-4 contact-form-box">
-            <form class="p-4 bg-lightgrey" action="{{ route('contact.submit') }}" method="POST">
+            <form class="p-4 bg-lightgrey" action="/contact" method="POST">
               @csrf
                
               <div class="mb-3">
@@ -175,7 +175,7 @@
             <p class="color-white fs-5">Welcome to our office. Please sign in at the front desk, and we will be happy to assist you. </p>
             <div class="fs-4 color-white mt-4">
               <p class=""><i class="fas fa-phone me-1 color-lightblue"></i> +61 3 8637 0343</p>
-              <p class=""><i class="fas fa-envelope me-1 color-lightblue"></i> info@unityskills.edu.au</p>
+              <p class=""><i class="fas fa-envelope me-1 color-lightblue"></i> info@uscohealth.edu.au</p>
               <p class=""><i class="fas fa-map-marker-alt me-1 color-lightblue"></i> <a href="https://maps.app.goo.gl/xfjuaYD7aieqqX4k6" target="_blank" rel="noopener noreferrer">Level 3, 123 Lonsdale Street, Melbourne</a></p>
             </div>
           </div>
