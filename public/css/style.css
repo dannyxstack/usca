@@ -11,16 +11,44 @@
 
 @font-face {
   font-family: 'Poppins';
-  src: url('/fonts/poppins-regular.ttf') format('ttf');
+  src: url('/fonts/Poppins-Regular.ttf') format('ttf');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Medium.ttf') format('ttf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-SemiBold.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+body {
+  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+  /* font-size: 16px; */
+  /* line-height: 1.6; */
+  color: #333;
+}
 
   /* Navbar */
   .navbar {
