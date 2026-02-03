@@ -521,7 +521,7 @@
                     <h2 class="fs-1 color-darkblue">Further Information</h2>
                     <div class="fs-5">
                       <p>For all further details, please refer to International Student Handbook available on <a href="http://www.penfold.edu.au/">www.penfold.edu.au</a> for all related policies and procedures and other important information related to international students including Covid-19, living cost, life and study in Melbourne, etc.</p>
-                      <p>Please contact the Administration Manager at <a href="mailto:admin@penfold.edu.au">admin@penfold.edu.au</a> or at +61 (03) 8637 0343 for further information.</p>
+                      <p>Please contact the Administration Manager at <a href="mailto:info@unityskills.com.au">info@unityskills.com.au</a> or at +61 (03) 8637 0343 for further information.</p>
                     </div>
                   </div>
                   <p class="pb-5"> </p>

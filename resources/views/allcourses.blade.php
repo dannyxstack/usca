@@ -3,6 +3,16 @@
 
 @include('layouts.head')
 
+<style>
+.section-bg-course {
+  background-image: url('/images/bg-header-course-detail.png');
+  background-size: cover; /* 覆盖整个区域 */
+  background-position: center; /* 居中显示 */
+  width: 100%;
+  height: 800px;
+}
+</style>
+
 <body>
 
   <!-- top navbar -->
