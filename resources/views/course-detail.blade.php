@@ -37,7 +37,7 @@
   border-radius: 10px;
   box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.2);
   padding: 20px;
-
+  background-color: rgba(156, 100, 155, 0.3);
 }
 
 .sticky-sidebar {
@@ -46,11 +46,12 @@
 }
 
 .section-bg-course {
-  background-image: url('/images/bg-header-course-detail.png');
+  background-image: url('/images/bg-header-course2.png');
   background-size: cover; /* 覆盖整个区域 */
   background-position: center; /* 居中显示 */
   width: 100%;
   height: 800px;
+  display: flex;
 }
 .section-bg-course-pathway {
   background-image: url('/images/course-detail2.png');
@@ -77,6 +78,41 @@
   border-bottom-left-radius: 0.9rem !important;
 }
 
+.course-title {
+  /* background-color: #9C649B; rgba(156, 100, 155, 0.5)*/
+  background-color: rgba(207, 140, 189, 0.7); /* ##CF8CBD 半透明0.7 */
+  color: #ffffff;
+  /* opacity: 0.7; */
+  /* display: flex; */
+
+  border-radius: 20px;
+  /* border-color: white; */
+  box-shadow: 0px 2px 2px 2px rgba(250, 250, 250, 0.8);
+  min-height: 300px;
+}
+
+.course-title h1 {
+  font-size: 3.5rem !important;
+}
+
+/* 【Text Colors】
+#43C4DB  
+#9C649B  
+#3F59A8  
+#FFFFFF  
+#949494  
+#585858 */
+
+.color-purple {
+  color: #b889b0;
+}
+
+.color-darkblue {
+  color: #3F59A8;
+}
+
+
+
 </style>
 
 <body>
@@ -86,18 +122,22 @@
 
   <!-- main content -->
 
-  <section class="hero text-center section-bg-course">
+  <section class="section-bg-course">
     <div class="container py-5">
       <div class="row">
-        <div class="col-md-5 text-start pt-5">
+        <div class="col-md-9">
+          <div class="course-title text-start px-4 py-4 " style="margin-top: 90px;">
+            
+              <h1 class="" style="font-weight: 800;">
+                {{ $course->code ?? '' }} {{ $course->name ?? '' }}<br>
+              </h1>
+            <p>
+              <div class="color-darkblue fs-4 fw-bolder" >CRICOS CODE: {{ $course->cricos_code ?? '' }}</div>
+            </p>
 
-          <div class="color-lightblue fs-4">CRICOS CODE: {{ $course->cricos_code ?? '' }}</div>
-          <div class="color-darkblue fs-1">
-          {{ $course->code ?? '' }} {{ $course->name ?? '' }}<br>
           </div>
         </div>
-        <div class="col-md-7">
-          <img src="/images/courses/{{ $course->img ?? '' }}" alt="Illustration" class="img-fluid rounded-5" style="max-height: 600px;">
+        <div class="col-md-3">
 
         </div>
       </div>
