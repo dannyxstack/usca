@@ -9,9 +9,10 @@ class CourseController extends Controller {
     public function index() {
         $courses = Course::all();
         $title = 'All Courses';
+        $menu1 = 'all-courses';
         return view('allcourses', compact(
             'courses',
-            'title'
+            'title', 'menu1',
         ));
     }
 
@@ -26,9 +27,10 @@ class CourseController extends Controller {
             }
         }
         $title = 'Our Colleges';
+        $menu1 = 'colleges';
         return view('colleges', compact(
             'courses',
-            'title'
+            'title', 'menu1'
         ));
     }
 
@@ -89,6 +91,7 @@ class CourseController extends Controller {
         $title = $course->code . ' - ' . $course->name;
 
         // print_r($coreUnits);exit;
+        $menu1 = 'all-courses';
 
         return view('course-detail', compact(
             'course',
@@ -99,7 +102,7 @@ class CourseController extends Controller {
             'randomCourses3',
             'randomCourses4',
 
-            'title'
+            'title', 'menu1',
         ));
     }
 }

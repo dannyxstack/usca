@@ -62,11 +62,11 @@
                
               <div class="mb-3">
                 <label for="firstname" class="form-label">First Name</label>
-                <input type="text" class="form-control contact-input" id="name" name="firstname" placeholder="Your First Name">
+                <input type="text" class="form-control contact-input" id="firstname" name="firstname" placeholder="Your First Name">
               </div>
               <div class="mb-3">
                 <label for="lastname" class="form-label">Last Name*</label>
-                <input type="text" class="form-control contact-input" id="name" name="lastname" placeholder="Your Last Name">
+                <input type="text" class="form-control contact-input" id="lastname" name="lastname" placeholder="Your Last Name">
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email*</label>
@@ -81,7 +81,7 @@
                 <input type="text" class="form-control contact-input" id="nationality" name="nationality" placeholder="Your Nationality">
               </div>
               <div class="mb-3">
-                <label for="enquerytype" class="form-label">Enquiry Type*</label>
+                <label for="enquiry_type" class="form-label">Enquiry Type*</label>
                 <select class="form-select contact-input" id="enquiry_type" name="enquiry_type">
                   <option value="" selected>Select Enquiry Type</option>
                   <option value="courseinfo">Course Information</option>

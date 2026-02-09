@@ -17,8 +17,9 @@ class ContactController extends Controller {
 
     public function index() {
         $title = 'Contact Us';
+        $menu1 = 'contact';
         return view('contact', compact(
-            'title'
+            'title', 'menu1',
         ));
     }
 

@@ -5,45 +5,60 @@ use App\Http\Controllers\CourseController;
 use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
-    return view('home', ['title' => 'Home']);
+    return view('home', ['title' => 'Home', 'menu1' => 'home']);
 });
 
 Route::get('/index', function () {
-    return view('home', ['title' => 'Home']);
+    return view('home', ['title' => 'Home', 'menu1' => 'home']);
 });
 
 Route::get('/campus', function () {
-    return view('campus', ['title' => 'Campus']);
+    return view('campus', ['title' => 'Campus', 'menu1' => 'campus']);
 });
 Route::get('/whyus', function () {
-    return view('whyus', ['title' => 'Why Us'] );
+    return redirect('/why-us');
+});
+Route::get('/why-us', function () {
+    return view('whyus', ['title' => 'Why Us', 'menu1' => 'why-us'] );
 });
 Route::get('/intakedates', function () {
-    return view('intake', ['title' => 'Intake Dates'] );
+    return redirect('/intake-dates');
+});
+Route::get('/intake-dates', function () {
+    return view('intake', ['title' => 'Intake Dates', 'menu1' => 'all-courses'] );
 });
 Route::get('/promotion', function () {
-    return view('promotion', ['title' => 'Promotion Prices'] );
+    return redirect('/promotional-prices');
+});
+Route::get('/promotional-prices', function () {
+    return view('promotion', ['title' => 'Promotional Prices', 'menu1' => 'all-courses'] );
 });
 Route::get('/findagent', function () {
-    return view('findagent', ['title' => 'Find An Agent'] );
+    return redirect('/find-an-agent');
 });
-Route::get('/apply', function () {
-    return view('apply', ['title' => 'Apply Now'] );
+Route::get('/find-an-agent', function () {
+    return view('findagent', ['title' => 'Find An Agent', 'menu1' => 'agent'] );
 });
 Route::get('/agentlist', function () {
-    return view('agentlist', ['title' => 'Agent List'] );
+    return redirect('/agent-list');
+});
+Route::get('/agent-list', function () {
+    return view('agentlist', ['title' => 'Agent List', 'menu1' => 'agent'] );
+});
+Route::get('/apply', function () {
+    return view('apply', ['title' => 'Apply Now', 'menu1' => 'apply'] );
 });
 Route::get('/student-services', function () {
-    return view('studentservice', ['title' => 'Student Services'] );
+    return view('studentservice', ['title' => 'Student Services', 'menu1' => 'student-experience'] );
 });
 Route::get('/esos-framework-and-tps-information', function () {
-    return view('esos', ['title' => 'ESOS Framework & TPS Information'] );
+    return view('esos', ['title' => 'ESOS Framework & TPS Information', 'menu1' => 'student-experience'] );
 });
 Route::get('/policies', function () {
-    return view('policies', ['title' => 'Policies, Procedures and Forms'] );
+    return view('policies', ['title' => 'Policies, Procedures and Forms', 'menu1' => 'student-experience'] );
 });
 Route::get('/enrolment-and-orientation', function () {
-    return view('enrolment', ['title' => 'Enrolment and Orientation'] );
+    return view('enrolment', ['title' => 'Enrolment and Orientation', 'menu1' => 'student-experience'] );
 });
 Route::get('/whyus.html', function () {
     return view('whyus');
@@ -52,9 +67,10 @@ Route::get('/whyus.html', function () {
 //     return view('colleges', ['title' => 'Colleges'] );
 // });
 
-Route::get('/colleges', [CourseController::class, 'colleges'])->name('course.colleges');
-Route::get('/allcourses', [CourseController::class, 'index'])->name('course.index');
-Route::get('/course/{code}', [CourseController::class, 'detail'])->name('course.detail');
+Route::get('/colleges', [CourseController::class, 'colleges']);
+Route::get('/allcourses', [CourseController::class, 'index']);
+Route::get('/all-courses', [CourseController::class, 'index']);
+Route::get('/course/{code}', [CourseController::class, 'detail']);
 
 Route::get('/course/chc33021', function () {
     return view('course-detail-chc33021');
