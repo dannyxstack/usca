@@ -651,21 +651,8 @@ body {
   font-weight: bold;
 }
 
-.course-review-card {
-  background-color: #f8f8f8;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;;
-  padding-left: 60px;
-  padding-right: 40px;
-  padding-top: 10px;
-  padding-bottom: 15px;
-}
 
-.course-detail-card {
-  border-radius: 20px;
-  box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.2);
-  padding: 20px;
-}
+
 
 .course-requirement-box {
   background-color: white;
