@@ -203,10 +203,10 @@
         </div>
 
         <!-- 示例：校园图片轮播 -->
-        <div id="courseCarousel1" class="carousel slide text-center">
+        <div id="courseCarousel1" class="carousel slide text-center" data-bs-ride="carousel">
           <!-- 轮播图片 -->
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item">
               <div class="row  py-2 px-2">
                 <div class="col-md-3">
                   <div class="carousel-img-item bg-white shadow-sm">
@@ -216,7 +216,7 @@
                         <img src="svg/Vector Health  website-05.svg" class="">
                       </a>
                     </div>
-                    <div class="fs-2">
+                    <div class="fs-2 pt-3">
                       <a href="/allcourses#business">
                         Business
                       </a>
@@ -244,7 +244,7 @@
                         <img src="svg/Vector Health  website-02.svg" class="">
                       </a>
                     </div>
-                    <div class="fs-2">
+                    <div class="fs-2 pt-3">
                       <a href="/allcourses#childcare">
                         Childcare
                       </a>
@@ -258,7 +258,7 @@
                         <img src="svg/Vector Health  website-03.svg" class="">
                       </a>
                     </div>
-                    <div class="fs-2">
+                    <div class="fs-2 pt-3">
                       <a href="/allcourses#aged-care">
                         Community Services
                       </a>
@@ -268,7 +268,7 @@
               </div>
             </div>
             <!-- 第2页 -->
-            <div class="carousel-item">
+            <div class="carousel-item active">
               <div class="row ">
                 <div class="col-md-3">
                   <div class="carousel-img-item bg-white">
@@ -291,7 +291,7 @@
                         <img src="svg/Vector Health  website-02.svg" class="">
                       </a>
                     </div>
-                    <div class="fs-2">
+                    <div class="fs-2 pt-3">
                       <a href="/allcourses#childcare">
                         Childcare
                       </a>
@@ -305,7 +305,7 @@
                         <img src="svg/Vector Health  website-03.svg" class="">
                       </a>
                     </div>
-                    <div class="fs-2">
+                    <div class="fs-2 pt-3">
                       <a href="/allcourses#aged-care">
                         Community Services
                       </a>
@@ -319,7 +319,7 @@
                         <img src="svg/Vector Health  website-17.svg" class="">
                       </a>
                     </div>
-                    <div class="fs-2">
+                    <div class="fs-2 pt-3">
                       <a href="/allcourses#cookery">
                         Cookery & Hospitality
                       </a>
@@ -338,7 +338,7 @@
                         <img src="svg/Vector Health  website-02.svg" class="">
                       </a>
                     </div>
-                    <div class="fs-2">
+                    <div class="fs-2 pt-3">
                       <a href="/allcourses#childcare">
                         Childcare
                       </a>
@@ -352,7 +352,7 @@
                         <img src="svg/Vector Health  website-03.svg" class="">
                       </a>
                     </div>
-                    <div class="fs-2">
+                    <div class="fs-2 pt-3">
                       <a href="/allcourses#aged-care">
                         Community Services
                       </a>
@@ -366,7 +366,7 @@
                         <img src="svg/Vector Health  website-17.svg" class="">
                       </a>
                     </div>
-                    <div class="fs-2">
+                    <div class="fs-2 pt-3">
                       <a href="/allcourses#cookery">
                         Cookery & Hospitality
                       </a>
@@ -380,7 +380,7 @@
                         <img src="svg/Vector Health  website-19.svg" class="">
                       </a>
                     </div>
-                    <div class="fs-2 pt-3">
+                    <div class="fs-2">
                       <a href="/allcourses#marketing">
                         Marketing & Communication
                       </a>
@@ -393,8 +393,8 @@
 
           <!-- 自定义指示器（核心部分） -->
           <div class="carousel-indicators custom-carousel-indicators custom-carousel-bg-white">
-            <button type="button" data-bs-target="#courseCarousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#courseCarousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#courseCarousel1" data-bs-slide-to="0" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#courseCarousel1" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#courseCarousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
         </div>
@@ -611,6 +611,22 @@
     </div>
   </section>
 
+  <script>
+
+  $(document).ready(function() {
+    console.log('Document is ready, initializing carousel...');
+    // 初始化轮播
+    var carousel = new bootstrap.Carousel($('#courseCarousel1')[0], {
+      interval: 3000
+    });
+    
+    // 确保从中间页开始
+    setTimeout(function() {
+      carousel.to(1); // 跳转到第二页（索引1）
+      console.log('Carousel initialized and set to middle page');
+    }, 100);
+  });
+  </script>
 
  <!-- footer -->
  @include('layouts.footer')
