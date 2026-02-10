@@ -97,6 +97,10 @@
   font-size: 3.5rem !important;
 }
 
+/* .color-purple {
+  color: #b889b0;
+} */
+
 /* 【Text Colors】
 #43C4DB  
 #9C649B  
@@ -105,12 +109,25 @@
 #949494  
 #585858 */
 
-.color-purple {
-  color: #b889b0;
+
+.color-darkgrey {
+  color:#585858;
+}
+
+.color-grey {
+  color: #949494;
+}
+
+.color-lightblue {
+  color: #43C4DB;
 }
 
 .color-darkblue {
   color: #3F59A8;
+}
+
+.color-purple {
+  color: #9C649B;
 }
 
 .course-overview-card {
@@ -264,13 +281,13 @@
           
           <section class="tab-pane fade show active" id="overview">
             <div class="">
-              <div class="py-5 container">
+              <div class="py-5 container color-darkgrey">
               <div class="row">
                 <div class="col-md-6" style="" >
                   <div class="course-overview-card px-5 py-5">
                     <div class="color-lightblue fs-6 fw-bold" style="">{{ $course->code ?? '' }}</div>
                     <div class="color-darkblue fs-5 fw-bold">{{$course->name}}</div>
-                    <p class="mt-4 fs-6" >{{ $course->overview }}</p>
+                    <p class="mt-4 fs-6" >{!! nl2br(e($course->overview )) !!}</p>
                     <!-- <a href="{{ $course->apply_link }}" class="btn btn-primary btn-lg footer-start-here-btn fs-4 mt-3 bg-darkblue">Start Here</a> -->
                   </div>
                   <div class="mt-5 px-4 fs-6">
@@ -281,7 +298,7 @@
                   </div>
                 </div>
                 <div class="col-md-6" >
-                  <div class="course-detail-card fs-6">
+                  <div class="course-detail-card fs-6 px-5 py-5">
                     <!-- <h4 class="color-darkblue">{{ $course->code ?? '' }}</h4> -->
                     <div class="color-darkblue fs-5 fw-bold">{{ $course->name ?? '' }}</div>
                     <hr>

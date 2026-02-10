@@ -360,20 +360,17 @@ body {
     height: 800px;
   }
 
-  .color-darkblue {
+  /* .color-darkblue {
     color: #4059a8;
   }
   .color-lightblue {
     color: #42c3da;
-  }
+  } */
   .color-white {
     color: white;
   }
   .color-yellow {
     color: #fed66f;
-  }
-  .bg-darkblue {
-    background-color: #4059a8;
   }
   .color-darkpurple {
     color: #9c649a;
@@ -381,8 +378,45 @@ body {
   .color-lightpurple {
     color: #cf8dbd;
   }
+  .color-dotpurple {
+    color: #bf69a8;
+  }
+
+/* 【Text Colors】
+#43C4DB  
+#9C649B  
+#3F59A8  
+#FFFFFF  
+#949494  
+#585858 */
+
+
+  .color-darkgrey {
+    color:#585858;
+  }
+
+  .color-grey {
+    color: #949494;
+  }
+
+  .color-lightblue {
+    color: #43C4DB;
+  }
+
+  .color-darkblue {
+    color: #3F59A8;
+  }
+
+  .color-purple {
+    color: #9C649B;
+  }
+
+
   .bg-lightblue {
     background-color: #42c3da;
+  }
+  .bg-darkblue {
+    background-color: #4059a8;
   }
   .bg-lightpurple1 {
     background-color: #cf8dbd;
@@ -393,10 +427,6 @@ body {
   .bg-darkpurple {
     background-color: #9c649a;
   }
-  .color-dotpurple {
-    color: #bf69a8;
-  }
-
 
   .bg-white-left-bottom {
     background-color: white;
