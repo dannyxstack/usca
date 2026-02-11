@@ -369,7 +369,7 @@
         <div class="row">
           <div class="col-md-4 mt-5 px-5">
             <p class="" style="height: 80px;"></p>
-            <img src="svg/Vector Header-10.png" alt="Support illustration" class="img-fluid" style="max-height: 600px;">
+            <img src="/images/banner12.png" alt="Support illustration" class="img-fluid" style="max-height: 600px;">
           </div>
           <div class="col-md-8 ">
             <h2 class="color-lightpurple pt-5">Why Australia</h2>
