@@ -79,6 +79,44 @@
   border-bottom-left-radius: 0.9rem !important;
 }
 
+.banner {
+  position: relative;
+  width: 100%;
+  height: 660px;
+  overflow: hidden;
+}
+
+.banner-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url('https://picsum.photos/1920/1080'); */
+  background-image: url('/images/courses/{{ $course->img }};');
+  background-size: cover;
+  background-position: center;
+  /* 核心：正弦波遮罩的SVG路径 */
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0 0 L0 70 Q 25 110 50 80 T 100 90 L100 0 Z" fill="white" /></svg>');
+  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0 0 L0 70 Q 25 110 50 80 T 100 90 L100 0 Z" fill="white" /></svg>');
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-40px);
+  color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  padding: 0 20px;
+}
+
 .course-title {
   /* 横幅的颜色比较特殊用的是#CF8CBD 加70%透明。 */
   /* background-color: #9C649B; rgba(156, 100, 155, 0.3)*/
@@ -90,7 +128,7 @@
   border-radius: 20px;
   /* border-color: white; */
   box-shadow: 0px 2px 2px 2px rgba(250, 250, 250, 0.8);
-  min-height: 300px;
+  min-height: 250px;
 }
 
 .course-title h1 {
@@ -157,26 +195,31 @@
 
   <!-- main content -->
 
-  <section class="section-bg-course">
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-md-9">
-          <div class="course-title text-start px-4 py-4 " style="margin-top: 90px;">
-            
-              <h1 class="" style="font-weight: 800;">
-                {{ $course->code ?? '' }} {{ $course->name ?? '' }}<br>
-              </h1>
-            <p>
-              <div class="color-darkblue fs-4 fw-bolder" >CRICOS CODE: {{ $course->cricos_code ?? '' }}</div>
-            </p>
+  <section class="banner" >
+    <div class="banner-bg" style="background-image: url('/images/courses/{{ $course->img }}');"></div>
+    <div class="banner-content">
 
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="course-title text-start px-4 py-4 ">
+              
+                <h1 class="" style="font-weight: 800;">
+                  {{ $course->code ?? '' }} {{ $course->name ?? '' }}<br>
+                </h1>
+              <p>
+                <div class="color-darkblue fs-4 fw-bolder" >CRICOS CODE: {{ $course->cricos_code ?? '' }}</div>
+              </p>
+  
+            </div>
           </div>
-        </div>
-        <div class="col-md-3">
-
+          <div class="col-md-3">
+  
+          </div>
         </div>
       </div>
     </div>
+
   </section>
 
   <div class="container">
