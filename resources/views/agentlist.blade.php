@@ -46,14 +46,14 @@
   <section class="hero text-center section-bg-banner">
     <div class="container">
       <div class="row">
-        <div class="col-md-5 color-white">
+        <div class="col-md-4 color-white">
 
           <h1 class="color-white" style="margin-top: 100px;">
             Agent List <br>
           </h1>
         </div>
-        <div class="col-md-7">
-          <img src="/images/banner1.png" alt="" class="img-fluid rounded-5">
+        <div class="col-md-8">
+          <img src="/images/banner11.png" alt="" class="img-fluid rounded-5">
         </div>
       </div>
     </div>
