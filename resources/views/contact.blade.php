@@ -30,7 +30,7 @@
 
   <section class="hero text-center section-bg-getintouch">
     <div class="container py-5">
-      <h1 class="">Get In Touch</h1>
+      <h1 class="">Contact Us</h1>
       <!-- <img src="https://placehold.co/600x400" alt="Illustration" class="img-fluid"> -->
     </div>
   </section>
