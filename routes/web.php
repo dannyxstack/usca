@@ -60,15 +60,15 @@ Route::get('/policies', function () {
 Route::get('/enrolment-and-orientation', function () {
     return view('enrolment', ['title' => 'Enrolment and Orientation', 'menu1' => 'student-experience'] );
 });
-Route::get('/whyus.html', function () {
-    return view('whyus');
-});
+
 // Route::get('/colleges', function () {
 //     return view('colleges', ['title' => 'Colleges'] );
 // });
 
 Route::get('/colleges', [CourseController::class, 'colleges']);
-Route::get('/allcourses', [CourseController::class, 'index']);
+Route::get('/allcourses', function () {
+    return redirect('/all-courses');
+});
 Route::get('/all-courses', [CourseController::class, 'index']);
 Route::get('/course/{code}', [CourseController::class, 'detail']);
 

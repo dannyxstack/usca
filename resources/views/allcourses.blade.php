@@ -70,7 +70,7 @@
             @endif
           @endforeach
         </div>
-        <div class="row>">
+        <div class="row">
           <p></p>
         </div>
       </div>
