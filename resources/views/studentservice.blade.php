@@ -66,7 +66,7 @@
     <div class="container">
       <div class="row fs-5">
         <div class="col-md-6">
-          <img src="/svg/Vector Header-09.svg" alt="" class="img-fluid" style="max-height: 500px;">
+          <img src="/images/Student-services-side1.png" alt="" class="img-fluid" style="max-height: 500px;">
 
         </div>
         <div class="col-md-6" style="padding-top: 70px;">
@@ -107,8 +107,8 @@
           <p class="mt-5"></p>
           <p></p>
         </div>
-        <div class="col-md-6">
-          <img src="/svg/Vector Header-12.svg" alt="" class="img-fluid" style="position: relative;max-height: 500px; top: -40px;">
+        <div class="col-md-6 pt-3">
+          <img src="/images/Student-services-side2.png" alt="" class="img-fluid rounded-5" style="position: relative;max-height: 500px; top: -40px;">
 
         </div>
       </div>

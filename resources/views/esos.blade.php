@@ -32,7 +32,7 @@
           </h1>
         </div>
         <div class="col-md-7">
-          <img src="/images/banner8.png" alt="" class="img-fluid rounded-5">
+          <img src="/images/ESOS.png" alt="" class="img-fluid rounded-5">
         </div>
       </div>
     </div>
