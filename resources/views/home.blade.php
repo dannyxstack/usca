@@ -454,7 +454,7 @@
 
       <div class="container py-5">
         <div class="row">
-          <div class="col-md-12 mt-5 px-5">
+          <div class="col-md-12 px-5">
             <h2 class="color-darkpurple pt-5">Our Campus</h2>
             <p class="fs-4">Our campus provides diverse elements like learning spaces (libraries, labs, theaters), health/wellness centers (clinics, gyms, gardens), cultural spots (galleries, museums, outdoor venues), social hubs (cafes, student centers, quads), and specialized facilities (farms, aviation centers, art studios).</p>
           </div>
@@ -581,7 +581,7 @@
   </section>
 
   <!-- section partners -->
-  <section class="" style="">
+  <section class="" style="display:none;">
     <div class="">
 
       <div class="container py-5">

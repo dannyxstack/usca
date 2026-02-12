@@ -106,7 +106,7 @@
   </section>
 
 
-  <section class=" bg-darkblue">
+  <section class=" bg-darkpurple">
     <div class=" bg-white-round-left-bottom">
     <div class="container">
       <div class="row py-5 text-center fs-4">
@@ -156,7 +156,7 @@
   </section>
 
 
-  <section class="bg-darkblue">
+  <section class="bg-darkpurple">
     <div class="">
 
       <div class="container py-5">
@@ -174,9 +174,9 @@
             <!-- <h1 class="color-white py-2" >Student Support Services</h2> -->
             <p class="color-white fs-5">Welcome to our office. Please sign in at the front desk, and we will be happy to assist you. </p>
             <div class="fs-4 color-white mt-4">
-              <p class=""><i class="fas fa-phone me-1 color-lightblue"></i> +61 3 8637 0343</p>
-              <p class=""><i class="fas fa-envelope me-1 color-lightblue"></i> admissions@uscohealth.edu.au</p>
-              <p class=""><i class="fas fa-map-marker-alt me-1 color-lightblue"></i> <a href="https://maps.app.goo.gl/xfjuaYD7aieqqX4k6" target="_blank" rel="noopener noreferrer">Level 3, 123 Lonsdale Street, Melbourne</a></p>
+              <p class=""><i class="fas fa-phone me-1"></i> +61 3 8637 0343</p>
+              <p class=""><i class="fas fa-envelope me-1"></i> admissions@uscohealth.edu.au</p>
+              <p class=""><i class="fas fa-map-marker-alt me-1"></i> <a href="https://maps.app.goo.gl/xfjuaYD7aieqqX4k6" target="_blank" rel="noopener noreferrer" class="color-white">Level 3, 123 Lonsdale Street, Melbourne</a></p>
             </div>
           </div>
         </div>

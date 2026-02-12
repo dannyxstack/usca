@@ -112,9 +112,12 @@
   justify-content: center;
   align-items: center;
   transform: translateY(-40px);
+  padding: 0 20px;
+}
+.banner-title {
   color: white;
   text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-  padding: 0 20px;
+  margin-top: 20px;
 }
 
 .course-title {
@@ -128,7 +131,7 @@
   border-radius: 20px;
   /* border-color: white; */
   box-shadow: 0px 2px 2px 2px rgba(250, 250, 250, 0.8);
-  min-height: 250px;
+  min-height: 240px;
 }
 
 .course-title h1 {
@@ -204,12 +207,12 @@
           <div class="col-md-9">
             <div class="course-title text-start px-4 py-4 ">
               
-                <h1 class="" style="font-weight: 800;">
+                <h1 class="banner-title" style="font-weight: 800;">
                   {{ $course->code ?? '' }} {{ $course->name ?? '' }}<br>
                 </h1>
-              <p>
+                <p>
+                </p>
                 <div class="color-darkblue fs-4 fw-bolder" >CRICOS CODE: {{ $course->cricos_code ?? '' }}</div>
-              </p>
   
             </div>
           </div>
@@ -665,7 +668,7 @@
           {{ $course->duration }}
           </p>
           <p class=""><b>Next Intake:</b><br>
-          February 2026
+          {{ date('F Y', time()+86400*15) }}
           </p>
 
           @if (isset($course->course_fees) && !empty($course->course_fees))

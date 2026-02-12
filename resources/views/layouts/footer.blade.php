@@ -67,6 +67,7 @@
       </div>
     </div>
     <div class="copyright-row text-center py-3">
+      <p class="mb-0">Unity Skills College of Health is owned and operated by Unity Skills Group</p>
       <p class="mb-0">&copy; {{ date('Y') }} Unity Skills College of Health. RTO Code:45045. CRICOS Provider Code: 03946C. All rights reserved. </p>
     </div>
   </footer>

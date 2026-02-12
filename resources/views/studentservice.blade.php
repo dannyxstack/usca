@@ -46,7 +46,7 @@
               <li>Handling student enquiries about course timetables, classroom arrangements, facilities and hospitality of Unity Skills College of Health.</li>
               <li>Organising student orientation.</li>
               <li>Receiving student complaints and referring complaints to the RTO Manager.</li>
-              <li>Providing students with information about&nbsp;Penfold&nbsp;attendance and course progress requirements.</li>
+              <li>Providing students with information about&nbsp;Unity Skills&nbsp;attendance and course progress requirements.</li>
               <li>Assisting students regarding WHS matters (advising the availability of sick bay and first aid kit).</li>
               <li>Providing information to students related to requests for leave, changes to courses and cancellations, and forwarding the request to the Admissions Manager for processing where relevant.</li>
             </ul>

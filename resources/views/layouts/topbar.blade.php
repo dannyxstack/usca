@@ -1,5 +1,5 @@
 <!-- top navbar -->
-  <div class="top-bar">
+  <div class="top-bar" style="display:none;">
     <div class="container d-flex justify-content-end align-items-center">
       <form id="siteSearchForm" class="search-form d-inline-flex" action="https://www.google.com/search" onsubmit="performSiteSearch(event)">
         <input type="text" id="siteSearchInput" name="q" class="form-control me-2" placeholder="Search...">
