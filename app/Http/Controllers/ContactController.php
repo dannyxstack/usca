@@ -18,8 +18,11 @@ class ContactController extends Controller {
     public function index() {
         $title = 'Contact Us';
         $menu1 = 'contact';
+        $description = 'Get in touch with Unity Skills College of Health for any inquiries, support, or feedback. We are here to assist you with your vocational education journey in Australia. Contact us today to learn more about our courses, colleges, and how we can help you achieve your career goals.';
+        $keywords = 'Unity Skills College of Health contact, contact us, inquiries, support, feedback, vocational education, Australia education, course information, college information, career guidance';
         return view('contact', compact(
             'title', 'menu1',
+            'description', 'keywords',
         ));
     }
 
