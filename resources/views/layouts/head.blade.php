@@ -5,6 +5,8 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>{{ $title ? $title.' - ': '' }} Unity Skills College Of Health</title>
 
+    @include('layouts.meta')
+
     <!--shared head-->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
