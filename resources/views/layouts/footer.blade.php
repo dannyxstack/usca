@@ -4,7 +4,7 @@
       <div class="row footer-start-here">
         <div class="col-md-4"></div>
         <div class="col-md-8">
-          <p class="fs-4">Join 5,000+ successful graduates who transformed their future with USG. 
+          <p class="fs-4 color-darkgrey">Join 5,000+ successful graduates who transformed their future with USG. 
             Let's begin your journey together - our team is here to guide you every step of the way.</p>
           
           <a href="/allcourses" class="btn btn-lg footer-start-here-btn fs-4 mt-3 bg-darkpurple color-white">Start Here</a>
