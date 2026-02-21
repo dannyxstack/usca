@@ -64,11 +64,11 @@
       <div class="row fs-4">
 
         <h3 class="color-darkpurple py-2 fs-2">Policies and Procedures</h3>
-        <p><a href="http://penfold.edu.au/wp-content/uploads/2025/09/PP2.8-Fees-and-Refunds-v3.0.pdf">Fees and Refund Policies and Procedures</a><br>
-        <a href="http://penfold.edu.au/wp-content/uploads/2025/09/PP1.9-Plagiarism-and-AI-v3.0.pdf">Plagiarism and AI Policies and Procedures</a><br>
-        <a href="http://penfold.edu.au/wp-content/uploads/2025/09/PP2.11-Discrimination-and-Harassment-v3.0.pdf">Discrimination and Harassment Policies and Procedures</a><br>
-        <a href="http://penfold.edu.au/wp-content/uploads/2025/09/PP2.9-Complaints-Handling-v3.0.pdf">Complaints and Appeal Policies and Procedures</a><br>
-        <a href="http://penfold.edu.au/wp-content/uploads/2025/09/PP2.2-Enrolment-v3.0.pdf">Enrolment Policies and Procedures</a></p>
+        <p><a href="/docs/Fees and Refunds v8.0.pdf">Fees and Refund Policies and Procedures</a><br>
+        <a href="/docs/Plagiarism and AI v8.0.pdf">Plagiarism and AI Policies and Procedures</a><br>
+        <a href="/docs/Discrimination and Harassment v8.0.pdf">Discrimination and Harassment Policies and Procedures</a><br>
+        <a href="/docs/Complaints Handling v8.0.pdf">Complaints and Appeal Policies and Procedures</a><br>
+        <a href="/docs/Enrolment v8.0.pdf">Enrolment Policies and Procedures</a></p>
         <p></p>
         <hr>
         <h3 class="color-darkpurple py-2 fs-2">Forms</h3>
