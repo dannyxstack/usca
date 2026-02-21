@@ -23,7 +23,7 @@
           <a href="/index" class="navbar-brand">
             <img src="/images/LOGO_US_Health Landscape-02.s.png" alt="Unity Skills College of Health Logo" height="60">
           </a>
-          <a href="https://usg-u4amt.kinsta.app/" class="navbar-brand">
+          <a href="https://unityskills.com.au" class="navbar-brand">
             <img src="/images/logo-usg-white.png" alt="Unity Skills Group Logo" style="margin-top: 80px;" height="80">
           </a>
 
@@ -66,8 +66,8 @@
         </div>
       </div>
     </div>
-    <div class="copyright-row text-center py-3">
-      <p class="mb-0">Unity Skills College of Health is owned and operated by Unity Skills Group</p>
-      <p class="mb-0">&copy; {{ date('Y') }} Unity Skills College of Health. RTO Code:45045. CRICOS Provider Code: 03946C. All rights reserved. </p>
+    <div class="copyright-row text-center py-2" style="font-size: smaller;">
+      <p class="mt-2 mb-1">Unity Skills College of Health is owned and operated by <a class="color-white" href="https://unityskills.com.au" target="_blank">Unity Skills Group</a></p>
+      <p class="mb-1">&copy; {{ date('Y') }} Unity Skills College of Health. ABN: 72 132 167 394 RTO Code:45045. CRICOS Provider Code: 03946C. All rights reserved. </p>
     </div>
   </footer>
