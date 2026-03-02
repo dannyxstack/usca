@@ -14,8 +14,8 @@
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg shadow-sm sticky-top">
     <div class="container">
-      <a class="navbar-brand py-3" href="/">
-        <img src="/images/LOGO_US_Health Landscape-01.s.png" alt="Unity Skills College of Health Logo" height="60">
+      <a class="navbar-brand py-2" href="/">
+        <img src="/images/LOGO_US_Health Landscape-01.s.png" alt="Unity Skills College of Health Logo" height="48">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
@@ -167,7 +167,7 @@
 
           <li class="nav-item"><a class="nav-link @if(isset($menu1)&&$menu1=='contact') em @endif" href="/contact">Contact Us</a></li>
           <li class="nav-item"><a class="nav-link" href="https://unityskills.instructure.com/">Student Portal</a></li>
-          <li class="nav-item"><a class="nav-link @if(isset($menu1)&&$menu1=='apply') em @endif" href="/apply">Apply Now</a></li>
+          <li class="nav-item"><a class="nav-link btn btn-apply @if(isset($menu1)&&$menu1=='apply') em @endif" href="/apply">Apply Now</a></li>
         </ul>
       </div>
     </div>
