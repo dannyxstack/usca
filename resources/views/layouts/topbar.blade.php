@@ -166,6 +166,7 @@
           </li>
 
           <li class="nav-item"><a class="nav-link @if(isset($menu1)&&$menu1=='contact') em @endif" href="/contact">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://unityskills.instructure.com/">Student Portal</a></li>
           <li class="nav-item"><a class="nav-link @if(isset($menu1)&&$menu1=='apply') em @endif" href="/apply">Apply Now</a></li>
         </ul>
       </div>
