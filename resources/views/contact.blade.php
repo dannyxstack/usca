@@ -169,7 +169,7 @@
             </div>
           </div>
           <div class="col-md-6 mt-3 ps-5">
-            <p class="color-lightblue fs-4 mb-0">Location</p>
+            <p class="color-white fs-4 mb-0">Location</p>
             <p class="color-white fs-2 mb-0">We're here to help</p>
             <!-- <h1 class="color-white py-2" >Student Support Services</h2> -->
             <p class="color-white fs-5">Welcome to our office. Please sign in at the front desk, and we will be happy to assist you. </p>
