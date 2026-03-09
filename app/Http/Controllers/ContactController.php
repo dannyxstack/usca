@@ -44,7 +44,11 @@ class ContactController extends Controller {
             ]);
 
             // 发送邮件通知管理员 ok
-            Mail::to('danny.xu@uscohealth.edu.au')
+            $recipients = [
+                'danny.xu@uscohealth.edu.au',
+                'Frank.Yin@uscohealth.edu.au',
+            ];
+            Mail::to($recipients)
                 ->send(mailable: new ContactNotification($message));
 
             // $resend = Resend::client(env('RESEND_KEY') ?? 're_3JFBzipF_CMZe6ghnt1w3TMQXtQFgEoDE');
