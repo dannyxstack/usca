@@ -25,8 +25,7 @@
           <li class="nav-item"><a class="nav-link @if(isset($menu1)&&$menu1=='home') em @endif" href="/index">Home</a></li>
           <li class="nav-item"><a class="nav-link @if(isset($menu1)&&$menu1=='why-us') em @endif" href="/why-us">Why Us</a></li>
           <li class="nav-item dropdown">
-            <!-- 1-2 layer -->
-            <a class="nav-link dropdown-toggle @if(isset($menu1)&&$menu1=='all-courses') em @endif" href="/all-courses" >Courses</a>
+            <a class="nav-link dropdown-toggle @if(isset($menu1)&&$menu1=='all-courses') em @endif" href="/all-courses">Courses</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item @if(isset($title)&&$title=='All Courses') em @endif" href="/all-courses">All Courses</a></li>
               
@@ -35,12 +34,9 @@
 
               <li class="dropdown-submenu dropend">
                 <a class="dropdown-item dropdown-toggle @if(isset($course)&&$course->class=='Aged Care and Community Services') em @endif" 
-                  href="#" role="button" >Aged Care and Community Services</a>
+                  href="#" >Aged Care and Community Services</a>
                 <ul class="dropdown-menu">
                   <li>
-                    <!-- <a class="dropdown-item" href="/course/CHC33021">CHC33021 Certificate III in Individual Support</a>
-                    <a class="dropdown-item" href="/course/CHC43015">CHC43015 Certificate IV in Ageing Support</a>
-                    <a class="dropdown-item" href="/course/CHC52021">CHC52021 Diploma of Community Services</a> -->
                     @foreach ( $allCourses as $courseItem)
                       @if ($courseItem->class == 'Aged Care and Community Services' )
                         <a class="dropdown-item @if(isset($course)&&$course->kname==$courseItem->kname) em @endif" href="/course/{{ $courseItem->kname }}">{{ $courseItem->code }} {{ $courseItem->name }}</a>
@@ -52,7 +48,7 @@
 
               <li class="dropdown-submenu dropend">
                 <a class="dropdown-item dropdown-toggle @if(isset($course)&&$course->class=='Early Childhood Education') em @endif" 
-                  href="#" role="button" >Early Childhood Education</a>
+                  href="#" >Early Childhood Education</a>
                 <ul class="dropdown-menu">
                   <li>
                     <!-- <a class="dropdown-item" href="/course/CHC30121">CHC30121 Certificate III in Early Childhood Education and Care</a>
@@ -69,7 +65,7 @@
 
               <li class="dropdown-submenu dropend">
                 <a class="dropdown-item dropdown-toggle @if(isset($course)&&$course->class=='Marketing and Communication') em @endif" 
-                  href="#" role="button" >Marketing and Communication</a>
+                  href="#" >Marketing and Communication</a>
                 <ul class="dropdown-menu">
                   <li>
                     <!-- <a class="dropdown-item" href="/course/BSB40820">BSB40820 Certificate IV in Marketing and Communication</a>
@@ -86,7 +82,7 @@
 
               <li class="dropdown-submenu dropend">
                 <a class="dropdown-item dropdown-toggle @if(isset($course)&&$course->class=='Business and Management') em @endif" 
-                  href="#" role="button" >Business and Management</a>
+                  href="#" >Business and Management</a>
                 <ul class="dropdown-menu">
                   <li>
                     <!-- <a class="dropdown-item" href="/course/BSB50420">BSB50420 Diploma of Leadership and Management</a>
@@ -104,7 +100,7 @@
 
               <li class="dropdown-submenu dropend">
                 <a class="dropdown-item dropdown-toggle @if(isset($course)&&$course->class=='Automotive') em @endif" 
-                  href="#" role="button" >Automotive</a>
+                  href="#" >Automotive</a>
                 <ul class="dropdown-menu">
                   <li>
                     <!-- <a class="dropdown-item" href="/course/AUR30620">AUR30620 Certificate III in Light Vehicle Mechanical Technology</a>
@@ -121,7 +117,7 @@
 
               <li class="dropdown-submenu dropend">
                 <a class="dropdown-item dropdown-toggle @if(isset($course)&&$course->class=='English Courses') em @endif" 
-                  href="#" role="button" >English Courses</a>
+                  href="#" >English Courses</a>
                 <ul class="dropdown-menu">
                   <li>
                     <!-- <a class="dropdown-item" href="/course/general-english">General English(GE) Elementary to Upper Intermediate</a>
@@ -146,7 +142,7 @@
           </li>
           <!-- <li class="nav-item"><a class="nav-link" href="/colleges">Colleges</a></li> -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle @if(isset($menu1)&&$menu1=='agent') em @endif" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Education Agents</a>
+            <a class="nav-link dropdown-toggle @if(isset($menu1)&&$menu1=='agent') em @endif" href="#"  aria-expanded="false">Education Agents</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item @if(isset($title)&&$title=='Agent List') em @endif" href="/agent-list">Agents</a></li>
               <li><a class="dropdown-item @if(isset($title)&&$title=='Find An Agent') em @endif" href="/find-an-agent">Find An Agent</a></li>
@@ -155,7 +151,7 @@
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle @if(isset($menu1)&&$menu1=='student-experience') em @endif" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Student Experience</a>
+            <a class="nav-link dropdown-toggle @if(isset($menu1)&&$menu1=='student-experience') em @endif" href="#"  aria-expanded="false">Student Experience</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item @if(isset($title)&&$title=='Enrolment and Orientation') em @endif" href="/enrolment-and-orientation">Enrolment and Orientation</a></li>
               <li><a class="dropdown-item @if(isset($title)&&$title=='Student Services') em @endif" href="/student-services">Student Services</a></li>

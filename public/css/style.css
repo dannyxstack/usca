@@ -261,10 +261,60 @@ body {
     transition: opacity 0.15s ease;
   }
   @media (max-width: 991px) {
+    /* 1. 禁用所有 hover 展开（你已写） */
     .navbar .dropdown:hover > .dropdown-menu {
       display: none;
     }
+  
+    /* 2. 三级菜单改为堆叠样式（内嵌、无边框、缩进） */
+    .dropdown-submenu {
+      position: relative;
+    }
+    .dropdown-submenu > .dropdown-menu {
+      position: static !important;   /* 取消绝对定位 */
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: transparent; /* 透出父菜单背景 */
+      border: 0;
+      box-shadow: none;
+      padding-left: 1.25rem;        /* 缩进表示层级 */
+      display: none;                 /* 默认隐藏 */
+    }
+  
+    /* 3. 点击后显示子菜单（需配合 JS 添加 .open 类） */
+    .dropdown-submenu.open > .dropdown-menu {
+      display: block !important;
+    }
+  
+    /* 4. 优化点击区域（为下拉箭头留出空间） */
+    .dropdown-submenu > .dropdown-toggle {
+      position: relative;
+      padding-right: 2rem;
+    }
+    .dropdown-submenu > .dropdown-toggle::after {
+      position: absolute;
+      right: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    /* 一级菜单内嵌化 */
+    .navbar .dropdown .dropdown-menu {
+      position: static !important;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: transparent;
+      border: 0;
+      box-shadow: none;
+      padding-left: 1rem;
+      display: none;
+    }
+    .navbar .dropdown.open > .dropdown-menu {
+      display: block;
+    }
   }
+
 
   /* Sections */
   .hero {
