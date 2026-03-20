@@ -125,7 +125,7 @@
 
                     @foreach ( $allCourses as $courseItem)
                       @if ($courseItem->class == 'English Courses' )
-                        <a class="dropdown-item @if(isset($course)&&$course->kname==$courseItem->kname) em @endif" href="/course/{{ $courseItem->kname }}">{{ $courseItem->code }} {{ $courseItem->name }}</a>
+                        <a class="dropdown-item @if(isset($course)&&$course->kname==$courseItem->kname) em @endif" href="/course/{{ $courseItem->kname }}">{{ $courseItem->name }}</a>
                       @endif
                     @endforeach
                   </li>
