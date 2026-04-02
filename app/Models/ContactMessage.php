@@ -20,5 +20,6 @@ class ContactMessage extends Model
         'mobile',
         'nationality',
         'enquiry_type',
+        'host',
     ];
 }

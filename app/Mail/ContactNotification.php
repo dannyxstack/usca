@@ -66,6 +66,7 @@ class ContactNotification extends Mailable
                 'firstname' => $this->contactMessage->firstname,
                 'lastname' => $this->contactMessage->lastname,
                 'nationality' => $this->contactMessage->nationality,
+                'host' => $this->contactMessage->host,
             ]);
     }
 }

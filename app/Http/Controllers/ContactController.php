@@ -41,6 +41,7 @@ class ContactController extends Controller {
                 'mobile' => $request->mobile,
                 'enquiry_type' => $request->enquiry_type,
                 'nationality' => $request->nationality,
+                'host' => $_SERVER['HTTP_HOST'],
             ]);
 
             // 发送邮件通知管理员 ok

@@ -6,9 +6,10 @@
     <title>新的咨询消息</title>
 </head>
 <body>
-    <h2>您收到一个新的网站咨询</h2>
+    <h2>您的网站 {{ $host }} 收到一个新的咨询</h2>
     
     <div style="background-color: #f5f5f5; padding: 20px; border-radius: 5px;">
+        <p><strong>来源网站：</strong> {{ $host }}</p>
         <p><strong>咨询人邮箱：</strong> {{ $email }}</p>
         <p><strong>咨询人名：</strong> {{ $firstname ?? '(未填写)' }}</p>
         <p><strong>咨询人姓：</strong> {{ $lastname ?? '(未填写)' }}</p>
