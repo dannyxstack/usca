@@ -53,10 +53,10 @@
           <p class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> <a href="https://maps.app.goo.gl/xfjuaYD7aieqqX4k6" target="_blank" rel="noopener noreferrer">Level 3, 123 Lonsdale Street, Melbourne</a></p>
           <h5 class="mb-3 fs-4">Follow Us</h5>
           <div class="d-flex gap-3 mb-4">
-              <a href="https://www.facebook.com/profile.php?id=100078400561598" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
               <!-- <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a> -->
-              <a href="https://www.instagram.com/penfold060?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
-              <!-- <a href="#" class="text-white"><i class="fab fa-linkedin-in fa-lg"></i></a> -->
+              <a href="https://www.tiktok.com/@unityskillscollege?_r=1&_t=ZS-95iXKIikgvA" class="text-white"><i class="fab fa-tiktok fa-lg"></i></a>
+              <a href="https://www.instagram.com/unityskillscollege?igsh=d2l0cDhqNDhhMXQ0" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
+              <a href="https://www.facebook.com/share/18NcRfBpDv/?mibextid=wwXIfr" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
           </div>
           <p>JOIN OUR COMMUNITY</p>
           <form>
