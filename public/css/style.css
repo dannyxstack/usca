@@ -921,3 +921,7 @@ body {
 .campus-location-img-box:hover .campus-location-img {
   transform: scale(1.12);   /* 放大 12%，可调 1.1 ~ 1.2 之间最自然 */
 }
+
+.campus-location-img-frame:hover {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);  /* 可选：hover 抬升感 */
+}
