@@ -162,11 +162,12 @@
       <div class="container py-5">
         <div class="row">
           <div class="col-md-6">
-            <div class="campus-location-img-box">
+            <iframe class="campus-location-img-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4457.739285018299!2d144.96727568182374!3d-37.811181028564576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642c9141170b3%3A0x96508f79a8d175dc!2s123%20Lonsdale%20St%2C%20Melbourne%20VIC%203000!5e0!3m2!1sen!2sau!4v1777789494149!5m2!1sen!2sau" width="600" height="400" style="border:0;border-radius:30px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- <div class="campus-location-img-box">
               <a href="https://maps.app.goo.gl/xfjuaYD7aieqqX4k6" target="_blank" rel="noopener noreferrer">
                 <img src="/images/location2.png" alt="College Location" class="img-fluid campus-location-img" style="max-height: 500px;">
               </a>
-            </div>
+            </div> -->
           </div>
           <div class="col-md-6 mt-3 ps-5">
             <p class="color-white fs-4 mb-0">Location</p>
