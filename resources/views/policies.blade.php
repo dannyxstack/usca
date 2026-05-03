@@ -50,9 +50,7 @@
       </div>
       <div class="row">
         <!-- <p class="fs-4">We look forward to the possibility of collaborating with you and becoming a trusted partner agent of our college.</p> -->
-        <p class="fs-5">At United Skills College of Health, we uphold the highest standards of educational integrity and regulatory compliance. 
-          Our comprehensive policies, procedures, and forms framework ensures full adherence to Australian education laws, 
-          CRICOS requirements, and industry best practices, providing transparent governance for all stakeholders.</p>
+        <p class="fs-5">At Unity Skills College of Health, we maintain the highest standards of educational integrity and regulatory compliance. Our robust policies, procedures, and forms framework ensures alignment with Australian education legislation, CRICOS requirements, and industry best practice, supporting transparent and accountable governance for all stakeholders. </p>
       </div>
       <hr>
 
@@ -64,20 +62,20 @@
       <div class="row fs-4">
 
         <h3 class="color-darkpurple py-2 fs-2">Policies and Procedures</h3>
-        <p><a href="/docs/Fees and Refunds v8.0.pdf">Fees and Refund Policies and Procedures</a><br>
-        <a href="/docs/Plagiarism and AI v8.0.pdf">Plagiarism and AI Policies and Procedures</a><br>
-        <a href="/docs/Discrimination and Harassment v8.0.pdf">Discrimination and Harassment Policies and Procedures</a><br>
-        <a href="/docs/Complaints Handling v8.0.pdf">Complaints and Appeal Policies and Procedures</a><br>
-        <a href="/docs/Enrolment v8.0.pdf">Enrolment Policies and Procedures</a></p>
+        <p><a href="/docs/Fees and Refunds v8.0.pdf" target="_blank">Fees and Refund Policies and Procedures</a><br>
+        <a href="/docs/Plagiarism and AI v8.0.pdf" target="_blank">Plagiarism and AI Policies and Procedures</a><br>
+        <a href="/docs/Discrimination and Harassment v8.0.pdf" target="_blank">Discrimination and Harassment Policies and Procedures</a><br>
+        <a href="/docs/Complaints Handling v8.0.pdf" target="_blank">Complaints and Appeal Policies and Procedures</a><br>
+        <a href="/docs/Enrolment v8.0.pdf" target="_blank">Enrolment Policies and Procedures</a></p>
         <p></p>
         <hr>
         <h3 class="color-darkpurple py-2 fs-2">Forms</h3>
-        <p><a href="https://form.jotform.com/252428889922068">International and Domestic Student Application form</a><br>
-        <a href="https://form.jotform.com/252528632879066">Student Request Form</a><br>
-        <a href="https://form.jotform.com/252600641106040">Leave Request Form</a><br>
-        <a href="https://form.jotform.com/252600862463051">Deferral, Suspension, and Cancellation form</a><br>
-        <a href="https://form.jotform.com/252601063166045">Withdrawal Form </a><br>
-        <a href="https://form.jotform.com/252470988101054">Fees Refund Request Form</a></p>
+        <p><a href="https://form.jotform.com/252428889922068" target="_blank">International and Domestic Student Application form</a><br>
+        <a href="https://form.jotform.com/252528632879066" target="_blank">Student Request Form</a><br>
+        <a href="https://form.jotform.com/252600641106040" target="_blank">Leave Request Form</a><br>
+        <a href="https://form.jotform.com/252600862463051" target="_blank">Deferral, Suspension, and Cancellation form</a><br>
+        <a href="https://form.jotform.com/252601063166045" target="_blank">Withdrawal Form </a><br>
+        <a href="https://form.jotform.com/252470988101054" target="_blank">Fees Refund Request Form</a></p>
         <p></p>
       </div>
       <div class="row"> 

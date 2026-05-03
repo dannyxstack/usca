@@ -183,7 +183,7 @@ body {
         <div class="col-md-4">
           <h1 class="">Our Colleges</h1>
           <!-- <img src="https://placehold.co/600x400" alt="Illustration" class="img-fluid"> -->
-          <p class="fs-5">Unity Skills offers specialized education through our dedicated colleges, each focusing on key industry sectors to provide you with the skills needed for career success.</p>
+          <p class="fs-5">Unity Skills College Of Health offers specialized education through our dedicated colleges, each focusing on key industry sectors to provide you with the skills needed for career success.</p>
         </div>
       </div>
     </div>

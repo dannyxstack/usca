@@ -352,8 +352,7 @@ table {
         <div class="col-md-6 py-3">
           <h2 class="color-darkpurple fw-bold">Enjoy exclusive partnership discounts and begin your learning journey!</h2>
           <p></p>
-          <p class="fs-5">All course prices shown on this page are special discounted prices offered jointly by our university and our partner institutions, 
-              aiming to help more international students access high-quality Australian education at a more affordable cost. <br>
+          <p class="fs-5">
               These discounted prices are lower than the official government-guided prices 
               published by Australia and are only valid for applications submitted through our official partner channels.<br>
               Please note that course fees may vary depending on individual circumstances, 

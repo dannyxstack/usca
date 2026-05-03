@@ -96,7 +96,7 @@
         </div>
         <div class="row">
           @foreach ( $allCourses as $course)
-            @if ($course->class == 'Aged Care and Community Services')
+            @if ($course->class == 'Early Childhood Education')
             <div class="col-md-4 pe-0">
               <div class="card course-pathway-card ps-1 py-2">
                 <div class="card-body">

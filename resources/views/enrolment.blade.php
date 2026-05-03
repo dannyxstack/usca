@@ -44,11 +44,12 @@
     <div class="container">
       <div class="row fs-5">
         <div class="col-md-6" style="padding-top: 70px;">
-          <h2 class="color-darkpurple fs-1">Enrolment</h2>
+          <h2 class="color-darkpurple fs-1">Enrolment Requirements</h2>
           <!-- <p class="color-darkblue" style="font-size: 32px;">Discover the unique advantages that make USG the preferred choice for students seeking quality education and career success</p> -->
-          <p class="mt-3">It is compulsory for you to finalise your enrolment by registering at Unity Skills before commencing your course. To register you must bring your passport and CoE letter. If you wish to have credit transferred from previous studies, you also need to bring your original documents to be sighted and photocopied for our records.</p>
-          <p class="">Also, please note that, if you have not enrolled in your course within 14 days of the commencement date indicated on your CoE, Unity Skills is required, by law, to cancel your CoE.</p>
-          <p>Please note that you are required to complete your address and emergency contact details and to inform Unity Skills of any changes, as it is a condition of your study visa. Failure to do so is a breach of one of the conditions of your student visa and can result in your visa’s cancellation.</p>
+          <p class="mt-3">All students must complete enrolment with Unity Skills College of Health prior to course commencement. To finalise your enrolment, you are required to present your passport and Confirmation of Enrolment (CoE). </p>
+          <p>If you intend to apply for Credit Transfer, please bring original academic documents for verification and copying. </p>
+          <p>Students who do not complete enrolment within 14 days of the CoE commencement date may have their CoE cancelled in accordance with regulatory requirements. </p>
+          <p>As part of your student visa conditions, you must provide your current residential address and emergency contact details, and notify Unity Skills College of Health of any changes within 7 days. Failure to comply may result in a breach of your visa conditions. </p>
         </div>
         <div class="col-md-6">
           <img src="/svg/Vector Header-09.svg" alt="" class="img-fluid" style="max-height: 500px;">
@@ -73,8 +74,8 @@
           <!-- <p class="pt-5"></p> -->
           <h2 class="color-darkpurple fs-1">Class Times and Orientation</h2>
           <!-- <p class="color-darkblue" style="font-size: 32px;">Discover the unique advantages that make USG the preferred choice for students seeking quality education and career success</p> -->
-          <p class="mt-3">Classes at Unity Skills are generally run according to individual class timings over a period of two and half day a week. You need to find out your scheduled class days at the time of their enrolment.</p>
-          <p>Orientation is conducted on the first day of the course. During Orientation, you will be introduced to Unity Skills staff, be fully informed of most aspects of life at Unity Skills, provided with useful information on Melbourne and be given opportunities to ask questions.</p>
+          <p class="mt-3">Classes at Unity Skills College of Health are typically scheduled across 2 or 2.5 days per week at a full contact of 20 hours on campus, depending on your course timetable. Your specific class schedule will be confirmed at the time of enrolment. </p>
+          <p>Orientation is conducted on the first day of your course. During this session, you will be introduced to key staff, receive important information about studying at Unity Skills College of Health, gain useful insights about living in Melbourne, and have the opportunity to ask questions. </p>
           <p></p>
         </div>
       </div>
