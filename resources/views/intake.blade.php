@@ -68,7 +68,7 @@ table tr td:first-child {
     <div class="container">
       <div class="row">
 
-  <h1 class="text-center color-darkpurple">Unity Skills College of Health Intake Dates 2026</h1>
+  <h1 class="text-center color-darkpurple">Intake Dates 2026</h1>
   <table >
     <thead>
       <tr>
@@ -159,7 +159,7 @@ table tr td:first-child {
     </tbody>
   </table>
 
-  <h1 class="text-center color-darkpurple">Unity Skills College of Health Intake Dates 2027</h1>
+  <h1 class="text-center color-darkpurple">Intake Dates 2027</h1>
   <table >
     <thead>
       <tr>
