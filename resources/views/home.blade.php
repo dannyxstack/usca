@@ -41,7 +41,7 @@
         <div class="row ">
           <div class="col-md-12" style="padding-top: 100px;">
             <h2 class="color-lightblue">Start Exploring</h2>
-            <p class="fs-3">Discover the full range of courses at United Skills College of Health</p>
+            <p class="fs-3">Discover the full range of courses at Unity Skills College of Health</p>
             <p class="fs-4">Your educational path begins here, find the perfect course for you.</p>
           </div>
         </div>

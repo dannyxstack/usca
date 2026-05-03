@@ -158,7 +158,7 @@
               <img src="svg/Vector Header-20.svg" class="benefits-card-img svg-color-lightpurple">
             </div>
             <h2 class="pt-4 color-darkpurple benefits-card-title">The Academic Staff</h3>
-            <p class="fs-5 text-start ms-3">Unity Skills College of Health trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating lessons for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualification, together with their academic qualifications and vast experience within the relevant industry.</p>
+            <p class="fs-5 text-start ms-3">Unity Skills College of Health trainers and assessors are experienced, enthusiastic and dedicated, they deliver well-prepared and stimulating training for the VET training programs. All trainers and assessors hold a Certificate IV in Training and Assessment qualifications, together with their academic qualifications and vast experience within the relevant industry.</p>
           </div>
         </div>
         <div class="col-md-4">
@@ -207,7 +207,7 @@
           </div>
           <div class="col-md-8 ">
             <h2 class="color-lightpurple pt-5">Why Australia</h2>
-            <h1 class="color-darkpurple py-2" >Why Study in Australia?</h2>
+            <h1 class="color-darkpurple py-2" >Why Study in Australia?</h1>
 
             	<p class="fs-5">
                 Australia is one of the world’s leading destinations for international education, offering students a unique combination of academic excellence, cultural diversity, and lifestyle opportunities. With globally recognized qualifications and a strong reputation for high-quality education, studying in Australia opens doors to worldwide career prospects.
