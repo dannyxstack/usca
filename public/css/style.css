@@ -326,12 +326,6 @@ body {
     margin-top: 180px;
     text-align: left;
   }
-
-  .footer {
-    background-color: var(--dark-blue);
-    color: var(--white);
-    padding: 40px 0;
-  }
   
   /* Responsive */
   @media (max-width: 768px) {
@@ -621,11 +615,18 @@ body {
 /* footer background image */
 .section-bg-footer {
   background-image: url('/images/bg-footer.png');
-  background-size: cover; /* 覆盖整个区域 */
-  background-position: center; /* 居中显示 */
-  width: 100%;
-  height: 800px;
-  overflow: hidden;
+  /* 关键：宽度撑满100%，高度按比例自动计算 */
+  background-size: 100% auto;
+  /* 从顶部对齐，超出部分（底部）自然裁剪 */
+  background-position: center -260px;
+  background-repeat: no-repeat;
+  overflow: hidden; 
+  /* width: 100%; */
+  /* min-height: 780px; */
+  /* overflow: hidden; */
+  padding-bottom: 0;
+  color: white;
+  background-color: #9c649a;
 }
 
 .footer-start-here {
@@ -635,6 +636,7 @@ body {
 }
 .footer-start-here-btn {
   border-radius: 25px;
+  border-color: #f1f1f1;
 }
 
 .footer-logo-row {
@@ -657,6 +659,16 @@ body {
 .copyright-row {
   margin-top: 10px;
 }
+
+@media (max-width: 480px) {
+  footer {
+    /* 小屏改为覆盖模式，图片会略微放大填满，保持顶部对齐 */
+    background-size: cover;
+    background-position: top center;
+  }
+}
+
+
 
 .campus-img {
   border-radius: 60px;

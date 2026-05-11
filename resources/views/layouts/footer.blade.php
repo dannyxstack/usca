@@ -67,6 +67,14 @@
       </div>
     </div>
     <div class="copyright-row text-center py-2" style="font-size: smaller;">
+      <div style="display: flex; ">
+        <img style="width:60px;height:40px;margin-left:10px;" src="/images/flag_country_aboriginal.png" loading="lazy" alt="Australian Aboriginal Flag">
+        <img style="width:60px;height:40px;margin-left:10px;" src="/images/flag_country_torres-strait-islanders.png" loading="lazy" alt="Flag of Torres Strait Islands">
+        <p class="mt-2 mb-1">
+          We acknowledge all Aboriginal and Torres Strait Islander Traditional Custodians of Country and recognise their
+          continuing connection to land, sea, culture and community. We pay our respects to Elders past and present.
+        </p>
+      </div>
       <p class="mt-2 mb-1">Unity Skills College of Health is owned and operated by <a class="color-white" href="https://unityskills.com.au" target="_blank">Unity Skills Group</a></p>
       <p class="mb-1">&copy; {{ date('Y') }} Unity Skills College of Health. ABN: 72 132 167 394 RTO Code:45045. CRICOS Provider Code: 03946C. All rights reserved. </p>
     </div>
