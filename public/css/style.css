@@ -632,7 +632,6 @@ body {
 .footer-start-here {
   padding-top: 20px;
   padding-bottom: 20px;
-  color: black;
 }
 .footer-start-here-btn {
   border-radius: 25px;
@@ -665,6 +664,9 @@ body {
     /* 小屏改为覆盖模式，图片会略微放大填满，保持顶部对齐 */
     background-size: cover;
     background-position: top center;
+  }
+  .footer-start-here {
+    color: white;
   }
 }
 
