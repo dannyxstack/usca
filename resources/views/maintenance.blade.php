@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Website Under Maintenance</title>
+    @include('layouts.head')
     <style>body { text-align: center; padding: 150px; } h1 { font-size: 40px; }</style>
 </head>
 <body>

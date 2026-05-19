@@ -166,3 +166,7 @@ Route::get('/test-csrf-setup', function() {
 Route::post('/test-csrf-post', function() {
     return response()->json(['message' => 'CSRF验证成功！']);
 });
+
+Route::get('/maintenance', function() {
+    return view('maintenance', ['title'=>'Website Under Maintenance']);
+});
