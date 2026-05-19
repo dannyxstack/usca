@@ -159,67 +159,6 @@
                 <div class="col-md-3">
                   <div class="carousel-img-item bg-white">
                     <div class="img-cover-container">
-                      <a href="/allcourses#cookery">
-                        <img src="svg/Vector Health  website-17.svg" class="">
-                      </a>
-                    </div>
-                    <div class="fs-2 pt-3">
-                      <a href="/allcourses#cookery">
-                        Cookery & Hospitality
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- 第三页 -->
-            <div class="carousel-item">
-              <div class="row ">
-                <div class="col-md-3">
-                  <div class="carousel-img-item bg-white">
-                    <div class="img-cover-container">
-                      <a href="/allcourses#childcare">
-                        <img src="svg/Vector Health  website-02.svg" class="">
-                      </a>
-                    </div>
-                    <div class="fs-2 pt-3">
-                      <a href="/allcourses#childcare">
-                        Childcare
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="carousel-img-item bg-white">
-                    <div class="img-cover-container">
-                      <a href="/allcourses#aged-care">
-                        <img src="svg/Vector Health  website-03.svg" class="">
-                      </a>
-                    </div>
-                    <div class="fs-2 pt-3">
-                      <a href="/allcourses#aged-care">
-                        Community Services
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="carousel-img-item bg-white">
-                    <div class="img-cover-container">
-                      <a href="/allcourses#cookery">
-                        <img src="svg/Vector Health  website-17.svg" class="">
-                      </a>
-                    </div>
-                    <div class="fs-2 pt-3">
-                      <a href="/allcourses#cookery">
-                        Cookery & Hospitality
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="carousel-img-item bg-white">
-                    <div class="img-cover-container">
                       <a href="/allcourses#marketing">
                         <img src="svg/Vector Health  website-19.svg" class="">
                       </a>
@@ -231,15 +170,16 @@
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
+
           </div>
 
           <!-- 自定义指示器（核心部分） -->
           <div class="carousel-indicators custom-carousel-indicators custom-carousel-bg-white">
-            <button type="button" data-bs-target="#courseCarousel1" data-bs-slide-to="0" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#courseCarousel1" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#courseCarousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#courseCarousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#courseCarousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
           </div>
         </div>
 

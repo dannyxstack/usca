@@ -21,10 +21,10 @@
         <div class="col-md-4">
           <!-- <h5 class="fs-4">Quick Link</h5> -->
           <a href="/index" class="navbar-brand">
-            <img src="/images/LOGO_US_Health Landscape-02.s.png" alt="Unity Skills College of Health Logo" height="60">
+            <img src="/images/LOGO_US_Health_Landscape-02.png" alt="Unity Skills College of Health Logo" width="300">
           </a>
           <a href="https://unityskills.com.au" class="navbar-brand">
-            <img src="/images/logo-usg-white.png" alt="Unity Skills Group Logo" style="margin-top: 80px;" height="80">
+            <img src="/images/logo-usg-white.png" alt="Unity Skills Group Logo" style="margin-top: 80px;" width="320">
           </a>
 
         </div>
