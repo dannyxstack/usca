@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\AgentController;
 
 Route::get('/', function () {
     return view('home', ['title' => 'Home', 'menu1' => 'home',
@@ -63,12 +64,14 @@ Route::get('/find-an-agent', function () {
 Route::get('/agentlist', function () {
     return redirect('/agent-list');
 });
-Route::get('/agent-list', function () {
-    return view('agentlist', ['title' => 'Agent List', 'menu1' => 'agent', 
-        'description' => 'Explore our comprehensive list of authorized agents for Unity Skills College of Health, your trusted partners in navigating the enrollment process and providing guidance on our courses. Connect with knowledgeable agents who can assist you in making informed decisions about your vocational education journey with us.',
-        'keywords' => 'Unity Skills College of Health agents, authorized agents, enrollment assistance, course guidance, application process, trusted agents, vocational education support',
-    ] );
-});
+// Route::get('/agent-list', function () {
+//     return view('agentlist', ['title' => 'Agent List', 'menu1' => 'agent', 
+//         'description' => 'Explore our comprehensive list of authorized agents for Unity Skills College of Health, your trusted partners in navigating the enrollment process and providing guidance on our courses. Connect with knowledgeable agents who can assist you in making informed decisions about your vocational education journey with us.',
+//         'keywords' => 'Unity Skills College of Health agents, authorized agents, enrollment assistance, course guidance, application process, trusted agents, vocational education support',
+//     ] );
+// });
+Route::get('/agent-list', [AgentController::class, 'index'])->name('agents.index');
+
 Route::get('/apply', function () {
     return view('apply', ['title' => 'Apply Now', 'menu1' => 'apply', 
         'description' => 'Ready to take the next step in your vocational education journey? Apply now to join Unity Skills College of Health and gain access to our quality courses, experienced trainers, and supportive learning environment. Start your application process today and secure your spot in our programs designed to help you achieve your career goals.',
