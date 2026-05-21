@@ -18,7 +18,7 @@ return Application::configure(basePath: dirname(__DIR__))
             // \Illuminate\Foundation\Http\Middleware\ValidateCsrfToken::class, // 这个是个操蛋的类，不生效
         // ]);
         // $middleware->validateCsrfTokens();
-        $middleware->append(DomainMaintenanceMiddleware::class);
+        // $middleware->append(DomainMaintenanceMiddleware::class);
         $middleware->append(ShareCoursesForMenu::class);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
