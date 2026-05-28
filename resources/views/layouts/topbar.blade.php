@@ -157,7 +157,7 @@
               <li><a class="dropdown-item @if(isset($title)&&$title=='Student Services') em @endif" href="/student-services">Student Services</a></li>
               <li><a class="dropdown-item @if(isset($title)&&$title=='Policies, Procedures and Forms') em @endif" href="/policies">Policies, Procedures and Forms</a></li>
               <li><a class="dropdown-item @if(isset($title)&&$title=='ESOS Framework & TPS Information') em @endif" href="/esos-framework-and-tps-information">ESOS Framework & TPS Information</a></li>
-              <li><a class="dropdown-item" href="https://penfold.edu.au/wp-content/uploads/2025/10/Unity-Skills-Colleg-of-Health-International-Student-Prospectus_V3.0.pdf">Student Handbook</a></li>
+              <!-- <li><a class="dropdown-item" href="https://penfold.edu.au/wp-content/uploads/2025/10/Unity-Skills-Colleg-of-Health-International-Student-Prospectus_V3.0.pdf">Student Handbook</a></li> -->
             </ul>
           </li>
 
