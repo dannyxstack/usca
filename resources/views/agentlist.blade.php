@@ -91,10 +91,8 @@
             <table class="table table-bordered table-hover mb-5 shadow">
               <thead class="bg-darkblue color-white" style="background-color: #1a3a6c; color: white;">
                 <tr>
-                  <th>Provider Entered Business Name</th>
+                  <th>Agency Name</th>
                   <th>Business Address</th>
-                  <th>Suburb</th>
-                  <th>State</th>
                   <th>Country</th>
                 </tr>
               </thead>
@@ -102,9 +100,7 @@
                 @forelse($agents as $agent)
                 <tr>
                   <td>{{ $agent->provider_entered_business_name }}</td>
-                  <td>{{ $agent->business_address ?? '-' }}</td>
-                  <td>{{ $agent->business_suburb ?? '-' }}</td>
-                  <td>{{ $agent->business_state ?? '-' }}</td>
+                  <td>{{ $agent->address ?? '-' }}</td>
                   <td>{{ $agent->business_country ?? '-' }}</td>
                 </tr>
                 @empty

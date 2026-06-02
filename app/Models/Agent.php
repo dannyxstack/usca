@@ -18,5 +18,6 @@ class Agent extends Model
         'business_suburb',
         'business_state',
         'business_country',
+        'address',
     ];
 }
