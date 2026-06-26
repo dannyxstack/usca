@@ -112,6 +112,7 @@ Route::get('/allcourses', function () {
     return redirect('/all-courses');
 });
 Route::get('/all-courses', [CourseController::class, 'index']);
+Route::get('/course-preview/{code}', [CourseController::class, 'preview']);
 Route::get('/course/{code}', [CourseController::class, 'detail']);
 
 Route::get('/course/chc33021', function () {

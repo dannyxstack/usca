@@ -7,7 +7,7 @@ use App\Models\Course;
 class CourseController extends Controller {
 
     public function index() {
-        $courses = Course::all();
+        $courses = Course::where('is_published', 1)->get();
         $title = 'All Courses';
         $menu1 = 'all-courses';
         $description = 'Explore our comprehensive range of courses at Unity Skills College of Health, designed to equip you with the skills and knowledge needed for success in your chosen career. From hospitality to business and more, our quality courses are tailored to meet industry demands and help you achieve your vocational education goals in Australia.';
@@ -20,7 +20,7 @@ class CourseController extends Controller {
     }
 
     public function colleges() {
-        $courses = Course::all();
+        $courses = Course::where('is_published', 1)->get();
         foreach ($courses as &$course) {
             if (strtolower($course->college) == 'hospitality') {
                 $course->apply_link = 'https://form.jotform.com/252850455284865';
@@ -46,6 +46,14 @@ class CourseController extends Controller {
      * @return \Illuminate\Contracts\View\View
      */
     public function detail($code) {
+        return $this->showCourse($code, true);
+    }
+
+    public function preview($code) {
+        return $this->showCourse($code, false);
+    }
+
+    private function showCourse($code, $respectPublishing) {
         // 根据代码查找课程
         $course = Course::where('code', $code)->first();
         if (empty($course)) {
@@ -56,6 +64,18 @@ class CourseController extends Controller {
         }
         if (empty($course)) {
             abort(404, 'Course not found');
+        }
+        if ($respectPublishing && (int) ($course->is_published ?? 0) !== 1) {
+            $title = 'Course Not Yet Open';
+            $menu1 = 'all-courses';
+            $description = 'This course is not yet open.';
+            $keywords = 'course not yet open';
+
+            return view('course-unavailable', compact(
+                'course',
+                'title', 'menu1',
+                'description', 'keywords',
+            ));
         }
 
         if (strtolower($course->college) == 'hospitality') {
@@ -87,7 +107,7 @@ class CourseController extends Controller {
         }
 
         // get random 4 courses
-        $courses = Course::all()->toArray();
+        $courses = Course::where('is_published', 1)->get()->toArray();
         shuffle($courses);
         $randomCourses1 = array_splice($courses, 0, 4);
         $randomCourses2 = array_slice($courses, 4, 4);

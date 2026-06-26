@@ -15,6 +15,7 @@ class Course extends Model {
         'cricos_code', 
         'class',
         'status',
+        'is_published',
         'aqf_level',
         'entry_requirements',
         'entry_req_desc',
@@ -36,5 +37,9 @@ class Course extends Model {
         'rpl_ct',
         'further_information', //
      ];
+
+    protected $casts = [
+        'is_published' => 'integer',
+    ];
 
 }

@@ -17,7 +17,7 @@ class ShareCoursesForMenu
      */
     public function handle(Request $request, Closure $next): Response
     {
-        View::share('allCourses', Course::all());
+        View::share('allCourses', Course::where('is_published', 1)->get());
         return $next($request);
     }
 }
